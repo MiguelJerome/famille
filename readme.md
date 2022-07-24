@@ -1,6 +1,6 @@
 ## FAMILLE CARD GAME
 
-![FAMILLE]() 
+![FAMILLE](./img/Famille.png) 
 
 ### Project Mock-up
 
@@ -16,7 +16,7 @@
 * images
         - [MOCK-up]()
 * js
-        - [script]()
+        - [script](./js/main.js)
 * html
         - [index](index.html)
         - [gameLevel](gameLevel.html)
