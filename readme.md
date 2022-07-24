@@ -26,7 +26,7 @@
 ## FAMILLE CARD GAME
 
 This is my FAMILLE CARD GAME website [link](https://migueljerome.github.io/famille/) 
-You can have access to the ressources of my FAMILLE CARD GAMEWeb Page [this the link](https://github.com/MiguelJerome/famille) 
+You can have access to the ressources of my FAMILLE CARD GAME Web Page [this the link](https://github.com/MiguelJerome/famille) 
 
  ## Local launch on chrome browser
- [local-chrome](http://127.0.0.1:5501)
+ [local-chrome](http://127.0.0.1:5500)

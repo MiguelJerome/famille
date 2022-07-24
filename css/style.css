@@ -1,0 +1,355 @@
+*::before, 
+*::after { 
+  box-sizing: border-box; 
+} 
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 120%;
+  min-width: 50%;
+  max-width: none;
+}
+
+header
+{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leaderboard-html
+{
+  float:left;
+  color: blueviolet;
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+.timer-html
+{
+  float: right;
+  color: blueviolet;
+  text-align: right;
+  margin-right: 40px;
+
+}
+
+.text-widget-layout
+{
+  display:none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quiz-info-question-title
+{
+  float: none;
+  text-align: center;
+}
+
+.quiz-info-question-line1
+{
+  float:none;
+  text-align: center;
+ margin: 0;
+}
+
+.quiz-info-question-line2
+{
+  text-align: center;
+  margin: 0;
+}
+
+.quiz-info-question-line3
+{
+  text-align: center;
+  margin: 0;
+}
+
+/* menu choice */
+.menu-choice
+{
+  text-decoration:none;
+  font-style: italic;
+}
+
+/* start quiz button */
+.start-quiz-button
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color:blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.start-quiz-button:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+.quiz-button1
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color:blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.quiz-button1:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+}
+
+.quiz-button2
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.quiz-button2:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+.quiz-button3
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.quiz-button3:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+.quiz-button4
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.quiz-button4:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+.answer_Condition
+{
+
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  color: black;
+  text-align: center;
+  margin-right: 40px;
+}
+
+/*form input initiale player*/
+.form-initale-player
+{
+  display: none;
+}
+
+
+.text-input-submit
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color:white;
+  color: black;
+}
+
+.button-submit
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration:none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.condition-layout
+{
+  display: flex;
+  color: #b0b6ae;
+}
+
+.horizontal-line
+{
+  margin: 0 auto;
+  border: 1px rgb(163, 165, 163);
+  background-color:#b0b6ae;
+  padding-right: 500px;
+  padding-bottom: 1px;
+  height: 1px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.button-submit:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+/* footer rules*/
+.about-me
+{
+  display: flex;
+  height: 10em;
+  background-color: #3f5aa3;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:center;
+  align-items:center;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  padding-right: 40px;
+  font-size: 20px;    
+  text-align: center; 
+}
+
+.about-me span
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-me a
+{
+  color: aqua;
+ 
+}
+
+a 
+{
+/*remove the underline for the link*/
+text-decoration: none;
+}
+
+.header 
+{
+    background-color: #eddfca;
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: normal;
+    align-items: stretch;
+}
+
+.header h1
+{
+  font-size: 45px;
+}
+
+.header h1 a
+{
+  padding: 20px;
+   display:flex;
+   margin:auto;
+   text-align: center;
+   width: 300px;
+   background-color: #eddfca;
+  color: #301c15;
+}
+ .nav 
+ {
+  width: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #301c15;
+}
+
+
+.game-rule
+{
+
+    border:5px solid #fff;
+    height: 50em;
+    width: 90em;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/GameRules.png");
+    background-size: cover;
+    justify-content:center;
+    align-content: flex-start;
+    
+    z-index: 9999;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
