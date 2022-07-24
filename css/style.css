@@ -305,7 +305,7 @@ text-decoration: none;
 
 .header 
 {
-    background-color: #eddfca;
+    background-color:  #d1d0cf;;
     display:flex; 
     flex-direction: column;
     flex-wrap: wrap;
@@ -326,7 +326,7 @@ text-decoration: none;
    margin:auto;
    text-align: center;
    width: 300px;
-   background-color: #eddfca;
+   background-color: #d1d0cf;
   color: #301c15;
 }
  .nav 
@@ -352,4 +352,77 @@ text-decoration: none;
     
     z-index: 9999;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-what-is-Famille
+{
+    background-color: rgb(234, 0, 255);
+    color: red;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: baseline;
+}
+
+.game-objective
+{
+
+    border:5px solid #fff;
+    height: 50em;
+    width: 90em;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/GameObjective.png");
+    background-size: cover;
+    justify-content:center;
+    align-content: flex-start;
+    
+    z-index: 9999;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-start-game
+{
+    background-color: rgb(234, 0, 255);
+    color: red;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: baseline;
+}
+
+.game-level
+{
+
+    border:5px solid #fff;
+    height: 35em;
+    width: 95em;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/gameLevel.png");
+    background-size: cover;
+    justify-content:center;
+    align-content: flex-start;
+    
+    z-index: 9999;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-game-rules
+{
+    background-color: rgb(234, 0, 255);
+    color: red;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: baseline;
 }
