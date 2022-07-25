@@ -3,6 +3,14 @@
   box-sizing: border-box; 
 } 
 
+
+ul li
+{
+  
+  list-style: none;
+  text-decoration:none;
+  font-style: italic;
+}
 body {
   height: 100%;
   margin: 0;
@@ -30,6 +38,7 @@ header
   margin-left: 40px;
 
 }
+
 
 .timer-html
 {
@@ -380,8 +389,8 @@ text-decoration: none;
 {
 
     border:5px solid #fff;
-    height: 50em;
-    width: 99em;
+    height: 475px;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     background-image: url("../img/vecteezy_poker-table-green-cloth-on-dark-background-vector-illustration_6325236.jpg");
@@ -410,20 +419,20 @@ text-decoration: none;
 
 .player-discard
 {
+  
   text-decoration:none;
   font-style: italic;
     display: flex;
-    text-decoration:none;
-    font-style: italic;
+   
   }
 
 .player-pick-up
 {
+  
   text-decoration:none;
   font-style: italic;
     display: flex;
-    text-decoration:none;
-    font-style: italic;
+    
 }
 
 
@@ -485,6 +494,7 @@ text-decoration: none;
 
 .player-discard-layout
 {
+  
   text-decoration:none;
   font-style: italic;
     display: flex;
@@ -495,8 +505,10 @@ text-decoration: none;
 
 .player-pick-up-layout
 {
+  
   text-decoration:none;
   font-style: italic;
+ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
