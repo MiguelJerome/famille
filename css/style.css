@@ -83,28 +83,7 @@ header
   font-style: italic;
 }
 
-/* start quiz button */
-.start-quiz-button
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color:blueviolet;
-  color: white;
-  border-radius: 8px;
-}
 
-.start-quiz-button:hover
-{
-  box-shadow: 1px 1px #301c15;
-  background-color: rgb(219, 104, 241);
-  border: 2px solid rgb(236, 0, 110);
-  transition: all;
-  
-}
 
 .quiz-button1
 {
@@ -401,8 +380,8 @@ text-decoration: none;
 {
 
     border:5px solid #fff;
-    height: 35em;
-    width: 95em;
+    height: 19em;
+    width: 80em;
     display: flex;
     flex-wrap: wrap;
     background-image: url("../img/gameLevel.png");
@@ -425,4 +404,98 @@ text-decoration: none;
     justify-content: center;
     align-content: stretch;
     align-items: baseline;
+}
+
+
+
+.player-discard
+{
+    display: flex;
+    text-decoration:none;
+    font-style: italic;
+  }
+
+.player-pick-up
+{
+    display: flex;
+    text-decoration:none;
+    font-style: italic;
+}
+
+
+.start-restart
+{
+    text-decoration:none;
+  font-style: italic;
+}
+
+/* start quiz button */
+.player-action
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration:none;
+  background-color:blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.player-action:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+/* start quiz button */
+.start-restart-button
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration:none;
+  background-color:blueviolet;
+  color: white;
+  border-radius: 8px;
+}
+
+.start-restart-button:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+.player-discard-layout
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.player-pick-up-layout
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.start-restart-layout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
