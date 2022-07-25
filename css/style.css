@@ -499,3 +499,17 @@ text-decoration: none;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.game-level
+{
+  display: flex;
+}
+
+.game-level-layout
+{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
