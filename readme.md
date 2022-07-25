@@ -14,7 +14,7 @@
 * css
         - [style](./css/style.css)
 * images
-        - [MOCK-up]()
+        - [poker-table](https://www.vecteezy.com/vector-art/6325236-poker-table-green-cloth-on-dark-background-vector-illustration)
 * js
         - [script](./js/main.js)
 * html

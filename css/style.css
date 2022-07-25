@@ -380,11 +380,11 @@ text-decoration: none;
 {
 
     border:5px solid #fff;
-    height: 19em;
-    width: 80em;
+    height: 50em;
+    width: 99em;
     display: flex;
     flex-wrap: wrap;
-    background-image: url("../img/gameLevel.png");
+    background-image: url("../img/vecteezy_poker-table-green-cloth-on-dark-background-vector-illustration_6325236.jpg");
     background-size: cover;
     justify-content:center;
     align-content: flex-start;
@@ -410,6 +410,8 @@ text-decoration: none;
 
 .player-discard
 {
+  text-decoration:none;
+  font-style: italic;
     display: flex;
     text-decoration:none;
     font-style: italic;
@@ -417,6 +419,8 @@ text-decoration: none;
 
 .player-pick-up
 {
+  text-decoration:none;
+  font-style: italic;
     display: flex;
     text-decoration:none;
     font-style: italic;
@@ -432,6 +436,8 @@ text-decoration: none;
 /* start quiz button */
 .player-action
 {
+  text-decoration:none;
+  font-style: italic;
   margin: 10px;
   padding-left: 100px;
   padding-right: 100px;
@@ -445,6 +451,8 @@ text-decoration: none;
 
 .player-action:hover
 {
+  text-decoration:none;
+  font-style: italic;
   box-shadow: 1px 1px #301c15;
   background-color: rgb(219, 104, 241);
   border: 2px solid rgb(236, 0, 110);
@@ -477,6 +485,8 @@ text-decoration: none;
 
 .player-discard-layout
 {
+  text-decoration:none;
+  font-style: italic;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -485,6 +495,8 @@ text-decoration: none;
 
 .player-pick-up-layout
 {
+  text-decoration:none;
+  font-style: italic;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -505,7 +517,7 @@ text-decoration: none;
   display: flex;
 }
 
-.game-level-layout
+.game-background-layout
 {
   display: flex;
   display: flex;
