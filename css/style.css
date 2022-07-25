@@ -527,13 +527,45 @@ text-decoration: none;
 .game-level
 {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
 }
 
 .game-background-layout
 {
+  
   display: flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+
+
+
+.board-card-layout
+{
+  margin-top: 99px;
+  text-decoration:none;
+  font-style: italic;
+  display: flex;
+   
+}
+
+.board-card
+{
+  text-decoration:none;
+  font-style: italic;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration:none;
+  background-color:rgb(43, 174, 226);
+  color: white;
+  border-radius: 8px;
 }
