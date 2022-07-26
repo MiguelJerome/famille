@@ -112,7 +112,7 @@ var GameLevel ={
         var buttonDiscardBottomPlayerCard3Text = "Discard Q♦";
         GameLevel._buttonDiscardBottomPlayerCard3.textContent = buttonDiscardBottomPlayerCard3Text;
 
-        var buttonDiscardBottomPlayerCard4Text = "Discard K♣";
+        var buttonDiscardBottomPlayerCard4Text = "Discard 7♣";
         GameLevel._buttonDiscardBottomPlayerCard4.textContent = buttonDiscardBottomPlayerCard4Text;
 
         var buttonPickUpBottomPlayerCard1Text = "Pick-up " + boardCard1;
