@@ -334,8 +334,8 @@ text-decoration: none;
 {
 
     border:5px solid #fff;
-    height: 50em;
-    width: 90em;
+    height: 100em;
+    width: 150em;
     display: flex;
     flex-wrap: wrap;
     background-image: url("../img/GameRules.png");
@@ -574,6 +574,7 @@ text-decoration: none;
   background-color:rgb(43, 174, 226);
   color: white;
   border-radius: 8px;
+  font-weight: bolder;
 }
 
 
@@ -637,4 +638,93 @@ text-decoration: none;
 .famille-acquired-layout
 {
   display: flex;
+}
+
+
+/*famille acquires css style stuff*/
+.famille-acquired-layout2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.famille-acquired
+{
+    text-decoration:none;
+  font-style: italic;
+}
+
+.famille-acquired-caption
+{
+  text-decoration:none;
+  font-style: italic;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration:none;
+  background: #087ee1;;;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px #301c15;
+  font-size: 1.5rem;
+  text-shadow: 5px 5px 10px  black;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+/*message box who won  css style stuff*/
+.message-box-who-won-layout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.message-box-who-won
+{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-decoration:none;
+  font-style: italic;
+}
+
+.message-box-who-won-info
+{
+  text-decoration:none;
+  font-style: italic;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration:none;
+  background-color:#BF953F;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 1px 1px #301c15;
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px  black;
+
+
+  
+ 
+  background-size: cover;
+  object-fit: cover;
+  position: sticky;
+  
+  
+  z-index: 20;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+
+
+
+
 }

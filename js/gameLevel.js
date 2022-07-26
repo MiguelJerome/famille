@@ -23,6 +23,40 @@ var GameLevel ={
 
     _buttonEndOfTurnTop: document.querySelector("#end-of-turn-top-button"),
     _buttonEndOfTurnBottom: document.querySelector("#end-of-turn-bottom-button"),
+
+    _captionFamilleAcquiredCaptionBottom: document.querySelector("#famille-acquired-caption-bottom"),
+    _captionFamilleAcquiredCaptionTop: document.querySelector("#famille-acquired-caption-top"),
+
+    _messageBoxWhoWonInfo: document.querySelector("#message-box-who-won-info"),
+    _messageBoxWhoWonInfo2: document.querySelector("#message-box-who-won-info2"),
+
+    _topPlayerFamilleRankA: document.querySelector("#top-player-famille-rank-A"),
+    _topPlayerFamilleRank2: document.querySelector("#top-player-famille-rank-2"),
+    _topPlayerFamilleRank3: document.querySelector("#top-player-famille-rank-3"),
+    _topPlayerFamilleRank4: document.querySelector("#top-player-famille-rank-4"),
+    _topPlayerFamilleRank5: document.querySelector("#top-player-famille-rank-5"),
+    _topPlayerFamilleRank6: document.querySelector("#top-player-famille-rank-6"),
+    _topPlayerFamilleRank7: document.querySelector("#top-player-famille-rank-7"),
+    _topPlayerFamilleRank8: document.querySelector("#top-player-famille-rank-8"),
+    _topPlayerFamilleRank9: document.querySelector("#top-player-famille-rank-9"),
+    _topPlayerFamilleRankT: document.querySelector("#top-player-famille-rank-T"),
+    _topPlayerFamilleRankJ: document.querySelector("#top-player-famille-rank-J"),
+    _topPlayerFamilleRankQ: document.querySelector("#top-player-famille-rank-Q"),
+    _topPlayerFamilleRankK: document.querySelector("#top-player-famille-rank-K"),
+
+    _bottomPlayerFamilleRankA: document.querySelector("#bottom-player-famille-rank-A"),
+    _bottomPlayerFamilleRank2: document.querySelector("#bottom-player-famille-rank-2"),
+    _bottomPlayerFamilleRank3: document.querySelector("#bottom-player-famille-rank-3"),
+    _bottomPlayerFamilleRank4: document.querySelector("#bottom-player-famille-rank-4"),
+    _bottomPlayerFamilleRank5: document.querySelector("#bottom-player-famille-rank-5"),
+    _bottomPlayerFamilleRank6: document.querySelector("#bottom-player-famille-rank-6"),
+    _bottomPlayerFamilleRank7: document.querySelector("#bottom-player-famille-rank-7"),
+    _bottomPlayerFamilleRank8: document.querySelector("#bottom-player-famille-rank-8"),
+    _bottomPlayerFamilleRank9: document.querySelector("#bottom-player-famille-rank-9"),
+    _bottomPlayerFamilleRankT: document.querySelector("#bottom-player-famille-rank-T"),
+    _bottomPlayerFamilleRankJ: document.querySelector("#bottom-player-famille-rank-J"),
+    _bottomPlayerFamilleRankQ: document.querySelector("#bottom-player-famille-rank-Q"),
+    _bottomPlayerFamilleRankK: document.querySelector("#bottom-player-famille-rank-K"),
     
 
     ShowAllGameRessources()
@@ -116,6 +150,50 @@ var GameLevel ={
         {
             GameLevel.GivePermissionTopPlayerToPlay();
         });
+
+        // caption header Famille acquired
+        var captionFamilleAcquiredCaptionBottomText = "Famille Acquired = " + "0";
+        GameLevel._captionFamilleAcquiredCaptionBottom.textContent = captionFamilleAcquiredCaptionBottomText;
+
+        var captionFamilleAcquiredCaptionTopText = "Famille Acquired = " + "0";
+        GameLevel._captionFamilleAcquiredCaptionTop.textContent = captionFamilleAcquiredCaptionTopText;
+
+        
+
+        // Top Player Famille acquired
+        GameLevel._topPlayerFamilleRankA.textContent = "A";
+        GameLevel._topPlayerFamilleRank2.textContent = "2";
+        GameLevel._topPlayerFamilleRank3.textContent = "3";
+        GameLevel._topPlayerFamilleRank4.textContent = "4";
+        GameLevel._topPlayerFamilleRank5.textContent = "5";
+        GameLevel._topPlayerFamilleRank6.textContent = "6";
+        GameLevel._topPlayerFamilleRank7.textContent = "7";
+        GameLevel._topPlayerFamilleRank8.textContent = "8";
+        GameLevel._topPlayerFamilleRank9.textContent = "9";
+        GameLevel._topPlayerFamilleRankT.textContent = "T";
+        GameLevel._topPlayerFamilleRankJ.textContent = "J";
+        GameLevel._topPlayerFamilleRankQ.textContent = "Q";
+        GameLevel._topPlayerFamilleRankK.textContent = "K";
+
+        // Bottom Player Famille acquired
+        GameLevel._bottomPlayerFamilleRankA.textContent = "A";
+        GameLevel._bottomPlayerFamilleRank2.textContent = "2";
+        GameLevel._bottomPlayerFamilleRank3.textContent = "3";
+        GameLevel._bottomPlayerFamilleRank4.textContent = "4";
+        GameLevel._bottomPlayerFamilleRank5.textContent = "5";
+        GameLevel._bottomPlayerFamilleRank6.textContent = "6";
+        GameLevel._bottomPlayerFamilleRank7.textContent = "7";
+        GameLevel._bottomPlayerFamilleRank8.textContent = "8";
+        GameLevel._bottomPlayerFamilleRank9.textContent = "9";
+        GameLevel._bottomPlayerFamilleRankT.textContent = "T";
+        GameLevel._bottomPlayerFamilleRankJ.textContent = "J";
+        GameLevel._bottomPlayerFamilleRankQ.textContent = "Q";
+        GameLevel._bottomPlayerFamilleRankK.textContent = "K";
+
+        // message box who won the game
+        var messageBoxWhoWonInfoText = "Top Player Won";
+        GameLevel._messageBoxWhoWonInfo.textContent = messageBoxWhoWonInfoText;
+        GameLevel._messageBoxWhoWonInfo2.textContent = messageBoxWhoWonInfoText;
 
 
     },
