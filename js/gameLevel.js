@@ -16,27 +16,29 @@ var GameLevel ={
     _buttonPickUpBottomPlayerCard2: document.querySelector("#pick-up-bottom-player-card2"),
     _buttonPickUpBottomPlayerCard3: document.querySelector("#pick-up-bottom-player-card3"),
     _buttonPickUpBottomPlayerCard4: document.querySelector("#pick-up-bottom-player-card4"),
-
     _boardCard1: document.querySelector("#board-card1"),
     _boardCard2: document.querySelector("#board-card2"),
     _boardCard3: document.querySelector("#board-card3"),
     _boardCard4: document.querySelector("#board-card4"),
+
+    _buttonEndOfTurnTop: document.querySelector("#end-of-turn-top-button"),
+    _buttonEndOfTurnBottom: document.querySelector("#end-of-turn-bottom-button"),
     
 
-    StartGame()
+    ShowAllGameRessources()
     {
 
           /* Board Card*/
-          var boardCard1 = "2♠";
+          var boardCard1 = "K♠";
           GameLevel._boardCard1.textContent = boardCard1;
   
-          var boardCard2 = "2❤";
+          var boardCard2 = "K❤";
           GameLevel._boardCard2.textContent = boardCard2;
   
-          var boardCard3 = "3♦";
+          var boardCard3 = "K♦";
           GameLevel._boardCard3.textContent = boardCard3;
   
-          var boardCard4 = "3♣";
+          var boardCard4 = "K♣";
           GameLevel._boardCard4.textContent = boardCard4;
 
         var startOrRestartGameButtonText = "Start or Restart";
@@ -91,7 +93,31 @@ var GameLevel ={
         var buttonPickUpBottomPlayerCard4Text = "Pick-up " + boardCard4;
         GameLevel._buttonPickUpBottomPlayerCard4.textContent = buttonPickUpBottomPlayerCard4Text;
 
-      
+      // end of turn button
+
+      var buttonEndOfTurnText = "End of turn";
+        GameLevel._buttonEndOfTurnTop.textContent = buttonEndOfTurnText;
+        GameLevel._buttonEndOfTurnBottom.textContent = buttonEndOfTurnText;
+
+        GameLevel._buttonStartRestart.addEventListener("click", function()
+        {
+        
+            GameLevel.HideAllRessourcesBeforeStartingGame();
+        });
+        
+        
+        
+        GameLevel._buttonEndOfTurnTop.addEventListener("click", function()
+        {
+            GameLevel.GivePermissionBottomPlayerToPlay();
+        });
+        
+        GameLevel._buttonEndOfTurnBottom.addEventListener("click", function()
+        {
+            GameLevel.GivePermissionTopPlayerToPlay();
+        });
+
+
     },
 
     HideTopPlayerAction()
@@ -151,6 +177,34 @@ var GameLevel ={
         GameLevel.ShowBottomPlayerAction();
         GameLevel.HideTopPlayerAction();
 
-    }
+    },
 
+    HideAllBoardCards()
+    {
+        GameLevel._boardCard1.style.visibility = "hidden";
+        GameLevel._boardCard2.style.visibility = "hidden";
+        GameLevel._boardCard3.style.visibility = "hidden";
+        GameLevel._boardCard4.style.visibility = "hidden";
+    },
+    HideTopPlayerEndOfTurnButton()
+    {
+        GameLevel._buttonEndOfTurnTop.visibility = "hidden";
+    },
+    HideBottomPlayerEndOfTurnButton()
+    {
+        GameLevel._buttonEndOfTurnBottom.visibility = "hidden";
+    },
+    HideAllEndOfTurnButton()
+    {
+        GameLevel.HideBottomPlayerEndOfTurnButton();
+        GameLevel.HideTopPlayerEndOfTurnButton();
+    },
+    
+    HideAllRessourcesBeforeStartingGame()
+    {
+        GameLevel.HideBottomPlayerAction();
+        GameLevel.HideTopPlayerAction();
+        GameLevel.HideAllBoardCards();
+        GameLevel.HideAllEndOfTurnButton();
+    }
 };

@@ -2,7 +2,12 @@
 *::after { 
   box-sizing: border-box; 
 } 
-
+ul
+{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+}
 
 ul li
 {
@@ -359,7 +364,7 @@ text-decoration: none;
 {
 
     border:5px solid #fff;
-    height: 50em;
+    height: 200em;
     width: 90em;
     display: flex;
     flex-wrap: wrap;
@@ -478,7 +483,7 @@ text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration:none;
-  background-color:blueviolet;
+  background-color:rgb(43, 101, 226);
   color: white;
   border-radius: 8px;
 }
@@ -527,10 +532,11 @@ text-decoration: none;
 .game-level
 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .game-background-layout
@@ -568,4 +574,67 @@ text-decoration: none;
   background-color:rgb(43, 174, 226);
   color: white;
   border-radius: 8px;
+}
+
+
+/* End of turn */
+.end-of-turn-layout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.end-of-turn
+{
+    text-decoration:none;
+  font-style: italic;
+}
+
+.end-of-turn-button
+{
+  margin: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration:none;
+  background-color:rgb(226, 43, 119);
+  color: white;
+  border-radius: 8px;
+}
+
+.end-of-turn-button:hover
+{
+  box-shadow: 1px 1px #301c15;
+  background-color: rgb(219, 104, 241);
+  border: 2px solid rgb(236, 0, 110);
+  transition: all;
+  
+}
+
+.famille-acquired-top-wrapper
+{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.famille-acquired-bottom-wrapper
+{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.famille-acquired-layout
+{
+  display: flex;
 }
