@@ -1,6 +1,6 @@
 ## FAMILLE CARD GAME
 
-![FAMILLE](./img/Famille.png) 
+![FAMILLE](./img/FamilleCardGame.png) 
 
 ### Project Mock-up
 
