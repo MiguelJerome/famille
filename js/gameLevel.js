@@ -95,11 +95,7 @@ var GameLevel ={
 
    
 
-        GameLevel._buttonStartRestart.addEventListener("click", function()
-        {
         
-            GameLevel.HideAllRessourcesBeforeStartingGame();
-        });
         
 
     },
