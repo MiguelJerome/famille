@@ -16,6 +16,7 @@ BoardCard.ShowAllBoardCard();
 EndOfTurn.ShowBothButtonEndOfTurn();
 
 
+DeckCard.PrintStartingDeckCarte();
 GameLevel._buttonStartRestart.addEventListener("click", function()
 {
 
