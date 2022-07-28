@@ -52,6 +52,8 @@ var BoardCard = {
         BoardCard.ShowSecondBoardCard(secondCardGraphic);
         BoardCard.ShowThirdBoardCard(thirdCardGraphic);
         BoardCard.ShowForthBoardCard(forthCardGraphic);
+        BottomPickUpCard.ShowAndUpdateAllBottomPickupCard(firstCardGraphic,secondCardGraphic,thirdCardGraphic,forthCardGraphic);
+        TopPickUpCard.ShowAndUpdateAllTopPickupCard(firstCardGraphic,secondCardGraphic,thirdCardGraphic,forthCardGraphic);
 
     }
 
