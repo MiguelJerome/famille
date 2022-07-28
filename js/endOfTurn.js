@@ -17,11 +17,13 @@ var EndOfTurn = {
     EndOfTurn._buttonEndOfTurnTop.addEventListener("click", function()
     {
         EndOfTurn.GivePermissionBottomPlayerToPlay();
+        GameMessageEvent.ShowMessageBottomPlayerItIsYourTurn();
     });
     
     EndOfTurn._buttonEndOfTurnBottom.addEventListener("click", function()
     {
         EndOfTurn.GivePermissionTopPlayerToPlay();
+        GameMessageEvent.ShowMessageTopPlayerItIsYourTurn();
     });
 },
     GivePermissionTopPlayerToPlay()
