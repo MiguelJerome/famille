@@ -1,11 +1,12 @@
 var  DeckCard = {
 
     
-    PrintStartingDeckCarte()
+    ShowStartingDeckCartelog()
     {
         for(var i= 0; i < 52; i++)
         {
-            Carte.SetCarteBehavior(i,1);
+            Carte.ShowGameStartAllCardsProperties(i);
+            
         }
         
     }

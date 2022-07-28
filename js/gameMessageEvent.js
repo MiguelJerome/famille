@@ -48,7 +48,13 @@ ClearMessageBox()
 {
     GameMessageEvent._messageBoxWhoWonInfo.textContent = "";
     GameMessageEvent._messageBoxWhoWonInfo2.textContent = "";
-}
+},
+ShowPressStart()
+{
+    var messageBoxDrawInfoText = "Press start";
+    GameMessageEvent._messageBoxWhoWonInfo.textContent = messageBoxDrawInfoText;
+    GameMessageEvent._messageBoxWhoWonInfo2.textContent = messageBoxDrawInfoText;
+},
 
 
 
