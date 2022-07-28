@@ -1,5 +1,5 @@
 var CardPosition ={
-    _noCardPosition: 0,
+    _deadZonePosition: 0,
     _boardCardPosition1: 4,
     _boardCardPosition2: 5,
     _boardCardPosition3: 6,

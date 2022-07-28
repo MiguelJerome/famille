@@ -46,49 +46,49 @@ var EndOfTurn = {
     },
     HideTopPlayerAction()
     {
-    GameLevel._buttonDiscardTopPlayerCard1.style.visibility = "hidden";
-    GameLevel._buttonDiscardTopPlayerCard2.style.visibility = "hidden";
-    GameLevel._buttonDiscardTopPlayerCard3.style.visibility = "hidden";
-    GameLevel._buttonDiscardTopPlayerCard4.style.visibility = "hidden";
-    GameLevel._buttonPickUpTopPlayerCard1.style.visibility = "hidden";
-    GameLevel._buttonPickUpTopPlayerCard2.style.visibility = "hidden";
-    GameLevel._buttonPickUpTopPlayerCard3.style.visibility = "hidden";
-    GameLevel._buttonPickUpTopPlayerCard4.style.visibility = "hidden";
+    TopPlayerHand._buttonDiscardTopPlayerCard1.style.visibility = "hidden";
+    TopPlayerHand._buttonDiscardTopPlayerCard2.style.visibility = "hidden";
+    TopPlayerHand._buttonDiscardTopPlayerCard3.style.visibility = "hidden";
+    TopPlayerHand._buttonDiscardTopPlayerCard4.style.visibility = "hidden";
+    TopPickUpCard._buttonPickUpTopPlayerCard1.style.visibility = "hidden";
+    TopPickUpCard._buttonPickUpTopPlayerCard2.style.visibility = "hidden";
+    TopPickUpCard._buttonPickUpTopPlayerCard3.style.visibility = "hidden";
+    TopPickUpCard._buttonPickUpTopPlayerCard4.style.visibility = "hidden";
     },
     HideBottomPlayerAction()
     {
-    GameLevel._buttonDiscardBottomPlayerCard1.style.visibility = "hidden";
-    GameLevel._buttonDiscardBottomPlayerCard2.style.visibility = "hidden";
-    GameLevel._buttonDiscardBottomPlayerCard3.style.visibility = "hidden";
-    GameLevel._buttonDiscardBottomPlayerCard4.style.visibility = "hidden";
-    GameLevel._buttonPickUpBottomPlayerCard1.style.visibility = "hidden";
-    GameLevel._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
-    GameLevel._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
-    GameLevel._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "hidden";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard2.style.visibility = "hidden";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard3.style.visibility = "hidden";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard4.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard1.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
     },
 
     ShowTopPlayerAction()
     {
-    GameLevel._buttonDiscardTopPlayerCard1.style.visibility = "visible";
-    GameLevel._buttonDiscardTopPlayerCard2.style.visibility = "visible";
-    GameLevel._buttonDiscardTopPlayerCard3.style.visibility = "visible";
-    GameLevel._buttonDiscardTopPlayerCard4.style.visibility = "visible";
-    GameLevel._buttonPickUpTopPlayerCard1.style.visibility = "visible";
-    GameLevel._buttonPickUpTopPlayerCard2.style.visibility = "visible";
-    GameLevel._buttonPickUpTopPlayerCard3.style.visibility = "visible";
-    GameLevel._buttonPickUpTopPlayerCard4.style.visibility = "visible";
+    TopPlayerHand._buttonDiscardTopPlayerCard1.style.visibility = "visible";
+    TopPlayerHand._buttonDiscardTopPlayerCard2.style.visibility = "visible";
+    TopPlayerHand._buttonDiscardTopPlayerCard3.style.visibility = "visible";
+    TopPlayerHand._buttonDiscardTopPlayerCard4.style.visibility = "visible";
+    TopPickUpCard._buttonPickUpTopPlayerCard1.style.visibility = "visible";
+    TopPickUpCard._buttonPickUpTopPlayerCard2.style.visibility = "visible";
+    TopPickUpCard._buttonPickUpTopPlayerCard3.style.visibility = "visible";
+    TopPickUpCard._buttonPickUpTopPlayerCard4.style.visibility = "visible";
     },
 
     ShowBottomPlayerAction()
     {
-    GameLevel._buttonDiscardBottomPlayerCard1.style.visibility = "visible";
-    GameLevel._buttonDiscardBottomPlayerCard2.style.visibility = "visible";
-    GameLevel._buttonDiscardBottomPlayerCard3.style.visibility = "visible";
-    GameLevel._buttonDiscardBottomPlayerCard4.style.visibility = "visible";
-    GameLevel._buttonPickUpBottomPlayerCard1.style.visibility = "visible";
-    GameLevel._buttonPickUpBottomPlayerCard2.style.visibility = "visible";
-    GameLevel._buttonPickUpBottomPlayerCard3.style.visibility = "visible";
-    GameLevel._buttonPickUpBottomPlayerCard4.style.visibility = "visible";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "visible";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard2.style.visibility = "visible";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard3.style.visibility = "visible";
+    BottomPlayerHand._buttonDiscardBottomPlayerCard4.style.visibility = "visible";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard1.style.visibility = "visible";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "visible";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "visible";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "visible";
     },
 
    

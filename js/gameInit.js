@@ -2,7 +2,8 @@ var GameInt ={
     
     RunGameInit()
     {
-        
+        EndOfTurn.HideTopPlayerAction();
+        EndOfTurn.HideBottomPlayerAction();
     var captionFamilleAcquiredCaptionTopText = "Famille Acquired = " + FamilleBoard._counterTopFamilleBoard;
     FamilleBoard._captionFamilleAcquiredCaptionTop.textContent = captionFamilleAcquiredCaptionTopText;
 
