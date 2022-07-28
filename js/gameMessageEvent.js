@@ -13,24 +13,18 @@ ShowMessageCurrentMessageEvent()
 
 ShowMessageTopPlayerWon()
 {
-    var messageBoxWhoWonInfoText = "Top Player Won";
+    var messageBoxWhoWonInfoText = "Top Won";
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxWhoWonInfoText;
     GameMessageEvent._messageBoxBottomPlayerInfo.textContent = messageBoxWhoWonInfoText;
 },
 
 ShowMessageBottomPlayerWon()
 {
-    var messageBoxWhoWonInfoText = "Bottom Player Won";
+    var messageBoxWhoWonInfoText = "Bottom Won";
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxWhoWonInfoText;
     GameMessageEvent._messageBoxBottomPlayerInfo.textContent = messageBoxWhoWonInfoText;
 },
 
-ShowMessageDraw()
-{
-    var messageBoxDrawInfoText = "Draw";
-    GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxDrawInfoText;
-    GameMessageEvent._messageBoxBottomPlayerInfo.textContent = messageBoxDrawInfoText;
-},
 ShowMessageTopPlayerItIsYourTurn()
 {
     

@@ -1,6 +1,7 @@
 var StartRestartGame ={
     RunStartRestartGame()
     {
+        EndOfTurn.GivePermissionToShowTopAndBottomEndOfurnButton();
         FamilleBoard.ClearBothPlayerFamilleBoard();
        FamilleAcquiredCaption.ClearBothThenShowUpdatedBottomFamilleAcquiredCaption();
        GameMessageEvent.ClearMessageBox();

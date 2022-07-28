@@ -16,35 +16,52 @@ var EndOfTurn = {
     
     EndOfTurn._buttonEndOfTurnTop.addEventListener("click", function()
     {
+        
         EndOfTurn.GivePermissionBottomPlayerToPlay();
         GameMessageEvent.ShowMessageBottomPlayerItIsYourTurn();
+        EndOfGame.CheckIfTopPlayerWon();
     });
     
     EndOfTurn._buttonEndOfTurnBottom.addEventListener("click", function()
     {
         EndOfTurn.GivePermissionTopPlayerToPlay();
         GameMessageEvent.ShowMessageTopPlayerItIsYourTurn();
+        EndOfGame.CheckIfBottomPlayerWon();
     });
 },
     GivePermissionTopPlayerToPlay()
     {
         EndOfTurn.ShowTopPlayerAction();
+        EndOfTurn.ShowTopPlayerEndOfTurnButton();
         EndOfTurn.HideBottomPlayerAction();
+        EndOfTurn.HideBottomPlayerEndOfTurnButton();
 
     },
     GivePermissionBottomPlayerToPlay()
     {
         EndOfTurn.ShowBottomPlayerAction();
+        EndOfTurn.ShowBottomPlayerEndOfTurnButton();
         EndOfTurn.HideTopPlayerAction();
+        EndOfTurn.HideTopPlayerEndOfTurnButton();
 
+    },
+    GivePermissionToHideTopAndBottomAction()
+    {
+        EndOfTurn.HideTopPlayerAction();
+        EndOfTurn.HideBottomPlayerAction();
+    },
+    GivePermissionToHideTopAndBottomEndOfurnButton()
+    {
+        EndOfTurn.HideTopPlayerEndOfTurnButton();
+        EndOfTurn.HideBottomPlayerEndOfTurnButton();
     },
     HideTopPlayerEndOfTurnButton()
     {
-        EndOfTurn._buttonEndOfTurnTop.visibility = "hidden";
+        EndOfTurn._buttonEndOfTurnTop.style.visibility = "hidden";
     },
     HideBottomPlayerEndOfTurnButton()
     {
-        EndOfTurn._buttonEndOfTurnBottom.visibility = "hidden";
+        EndOfTurn._buttonEndOfTurnBottom.style.visibility = "hidden";
     },
     HideTopPlayerAction()
     {
@@ -92,6 +109,19 @@ var EndOfTurn = {
     BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "visible";
     BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "visible";
     },
+    GivePermissionToShowTopAndBottomEndOfurnButton()
+    {
+        EndOfTurn.ShowTopPlayerEndOfTurnButton();
+        EndOfTurn.ShowBottomPlayerEndOfTurnButton();
+    },
+    ShowTopPlayerEndOfTurnButton()
+    {
+        EndOfTurn._buttonEndOfTurnTop.style.visibility = "visible";
+    },
+    ShowBottomPlayerEndOfTurnButton()
+    {
+        EndOfTurn._buttonEndOfTurnBottom.style.visibility = "visible";
+    }
 
    
 };

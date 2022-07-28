@@ -2,6 +2,7 @@ var GameInt ={
     
     RunGameInit()
     {
+        EndOfTurn.GivePermissionToHideTopAndBottomEndOfurnButton();
         GameInt.SetAllCardsToTheirStartingGamePosition();
         EndOfTurn.HideTopPlayerAction();
         EndOfTurn.HideBottomPlayerAction();
@@ -68,5 +69,11 @@ var GameInt ={
         Carte._positionKh = CardPosition._startingCardDeck50,
         Carte._positionKd = CardPosition._startingCardDeck51,
         Carte._positionKc = CardPosition._startingCardDeck52
+    },
+    SetAllTheFamilleToTheirStartingGameState()
+    {
+        FamilleBoard._counterBottomFamilleBoard = 0;
+        FamilleBoard._counterTopFamilleBoard = 0;
+        FamilleBoard._counterAllFamilleBoard = 0;
     }
 };

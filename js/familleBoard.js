@@ -49,6 +49,7 @@ var FamilleBoard ={
     _counterBottomFamilleBoard: 0,
     _counterAllFamilleBoard: 0,
     _numberMaximalCombinationFamille: 12,
+    _scoreForTheWin: 7,
     ShowFamilleBoard()
     {
     // caption header Famille acquired
