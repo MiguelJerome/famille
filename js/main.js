@@ -11,7 +11,7 @@ EndOfTurn.ShowBothButtonEndOfTurn();
 
 GameLevel._buttonStartRestart.addEventListener("click", function()
 {
-
+    
     StartRestartGame.RunStartRestartGame();
 });
 

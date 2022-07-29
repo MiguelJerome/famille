@@ -2,7 +2,7 @@ var GameInt ={
     
     RunGameInit()
     {
-        EndOfTurn.GivePermissionToHideTopAndBottomEndOfurnButton();
+        EndOfTurn.GivePermissionToShowTopAndBottomEndOfurnButton();
         GameInt.SetAllCardsToTheirStartingGamePosition();
         EndOfTurn.HideTopPlayerAction();
         EndOfTurn.HideBottomPlayerAction();
@@ -12,7 +12,7 @@ var GameInt ={
     var captionFamilleAcquiredCaptionBottomText = "Famille Acquired = " + FamilleBoard._counterBottomFamilleBoard;
     FamilleBoard._captionFamilleAcquiredCaptionBottom.textContent = captionFamilleAcquiredCaptionBottomText;
     GameMessageEvent.ShowPressStart();
-    DeckCard.ShowStartingDeckCartelog();
+    //DeckCard.ShowStartingDeckCartelog();
    // BoardCard.ShowAllBoardCardPreviewTesting();
     },
     SetAllCardsToTheirStartingGamePosition()
