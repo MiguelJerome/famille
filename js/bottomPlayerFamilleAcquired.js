@@ -685,19 +685,19 @@ var BottomPlayerFamilleAcquired ={
                case Carte._idAs:
                 if(Carte._positionAs == CardPosition._bottomHandCardPosition2  )
                 {
-                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                    CheckThirdHandCardFamilleCombinationAhAs(carteIdHand3, carteIdHand4);
                 }
                 break;
                 case Carte._idAd:
                     if(Carte._positionAd == CardPosition._bottomHandCardPosition2  )
                 {
-                    Carte.ShowLogCartePoperties(Carte._idAd, Carte._graphicAd, Carte._graphicIsVisibleOrNotAd, Carte._ShuffleOrNotAd, Carte._positionAd );           
+                    CheckThirdHandCardFamilleCombinationAhAd(carteIdHand3, carteIdHand4);          
                 }
                     break;
                 case Carte._idAc:
                     if(Carte._positionAc == CardPosition._bottomHandCardPosition2 )
                 {
-                    Carte.ShowLogCartePoperties(Carte._idAc, Carte._graphicAc, Carte._graphicIsVisibleOrNotAc, Carte._ShuffleOrNotAc, Carte._positionAc );
+                    CheckThirdHandCardFamilleCombinationAhAc(carteIdHand3, carteIdHand4);
                 }
                     break;
                 
@@ -706,7 +706,7 @@ var BottomPlayerFamilleAcquired ={
             }
     
         },
-
+     
         CheckSecondHandCardFamilleCombinationAd(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -714,26 +714,23 @@ var BottomPlayerFamilleAcquired ={
                case Carte._idAs:
                 if(Carte._positionAs == CardPosition._bottomHandCardPosition2  )
                 {
-                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                    CheckThirdHandCardFamilleCombinationAdAs(carteIdHand3, carteIdHand4);
                 }
                 break;
                 case Carte._idAh:
                     if(Carte._positionAh == CardPosition._bottomHandCardPosition2   )
                 {
-                    Carte.ShowLogCartePoperties(Carte._idAh, Carte._graphicAh, Carte._graphicIsVisibleOrNotAh, Carte._ShuffleOrNotAh , Carte._positionAh);
+                    CheckThirdHandCardFamilleCombinationAdAh(carteIdHand3, carteIdHand4);
                 }
                     break;
                 case Carte._idAc:
                     if(Carte._positionAc == CardPosition._bottomHandCardPosition2 )
                 {
-                    Carte.ShowLogCartePoperties(Carte._idAc, Carte._graphicAc, Carte._graphicIsVisibleOrNotAc, Carte._ShuffleOrNotAc, Carte._positionAc );
+                    CheckThirdHandCardFamilleCombinationAdAc(carteIdHand3, carteIdHand4);
                 }
                     break;
-                
                 default:break;
-    
             }
-    
         },
         CheckSecondHandCardFamilleCombinationAc(carteIdHand2, carteIdHand3, carteIdHand4)
         {
@@ -742,24 +739,25 @@ var BottomPlayerFamilleAcquired ={
                case Carte._idAs:
                 if(Carte._positionAs == CardPosition._bottomHandCardPosition2  )
                 {
-                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                    CheckThirdHandCardFamilleCombinationAcAs(carteIdHand3, carteIdHand4);
                 }
                 break;
                 case Carte._idAh:
                     if(Carte._positionAh == CardPosition._bottomHandCardPosition2   )
                 {
-                    Carte.ShowLogCartePoperties(Carte._idAh, Carte._graphicAh, Carte._graphicIsVisibleOrNotAh, Carte._ShuffleOrNotAh , Carte._positionAh);
+                    CheckThirdHandCardFamilleCombinationAcAh(carteIdHand3, carteIdHand4);
                 }
                     break;
                 case Carte._idAd:
                     if(Carte._positionAd == CardPosition._bottomHandCardPosition2  )
                 {
-                    Carte.ShowLogCartePoperties(Carte._idAd, Carte._graphicAd, Carte._graphicIsVisibleOrNotAd, Carte._ShuffleOrNotAd, Carte._positionAd );           
+                    CheckThirdHandCardFamilleCombinationAcAd(carteIdHand3, carteIdHand4);          
                 }
                     break;  
                 default:break;
             }
         },
+
 
         CheckSecondHandCardFamilleCombination2s(carteIdHand2, carteIdHand3, carteIdHand4)
         {
@@ -769,27 +767,23 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id2h:
                     if(Carte._position2h == CardPosition._bottomHandCardPosition2   )
                     {
-                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                        CheckThirdHandCardFamilleCombination2s2h(carteIdHand3, carteIdHand4);
                     }
                         break;     
                     case Carte._id2d:
                         if(Carte._position2d == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                            CheckThirdHandCardFamilleCombination2s2d(carteIdHand3, carteIdHand4);          
                         }
                         break;
                     case Carte._id2c:
                         if(Carte._position2c == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                            CheckThirdHandCardFamilleCombination2s2c(carteIdHand3, carteIdHand4);
                         }
                         break;
-                    
-    
                 default:break;
-    
             }
-    
         },
 
         CheckSecondHandCardFamilleCombination2h(carteIdHand2, carteIdHand3, carteIdHand4)
@@ -799,25 +793,23 @@ var BottomPlayerFamilleAcquired ={
                 case Carte._id2s:
                     if(Carte._position2s == CardPosition._bottomHandCardPosition2   )
                     {
-                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                        CheckThirdHandCardFamilleCombination2h2s(carteIdHand3, carteIdHand4);
                     }
                     break; 
                     case Carte._id2d:
                         if(Carte._position2d == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                            CheckThirdHandCardFamilleCombination2h2d(carteIdHand3, carteIdHand4);           
                         }
                         break;
                     case Carte._id2c:
                         if(Carte._position2c == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                            CheckThirdHandCardFamilleCombination2h2c(carteIdHand3, carteIdHand4);
                         }
                         break;
                 default:break;
-    
             }
-    
         },
 
         CheckSecondHandCardFamilleCombination2d(carteIdHand2, carteIdHand3, carteIdHand4)
@@ -827,25 +819,23 @@ var BottomPlayerFamilleAcquired ={
                 case Carte._id2s:
                     if(Carte._position2s == CardPosition._bottomHandCardPosition2   )
                     {
-                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                        CheckThirdHandCardFamilleCombination2d2s(carteIdHand3, carteIdHand4);
                     }
                     break;
                     case Carte._id2h:
                     if(Carte._position2h == CardPosition._bottomHandCardPosition2   )
                     {
-                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                        CheckThirdHandCardFamilleCombination2d2h(carteIdHand3, carteIdHand4);
                     }
                         break;     
                     case Carte._id2c:
                         if(Carte._position2c == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                            CheckThirdHandCardFamilleCombination2d2c(carteIdHand3, carteIdHand4)
                         }
                         break;
                 default:break;
-    
             }
-    
         },
 
         CheckSecondHandCardFamilleCombination2c(carteIdHand2, carteIdHand3, carteIdHand4)
@@ -855,25 +845,23 @@ var BottomPlayerFamilleAcquired ={
                 case Carte._id2s:
                     if(Carte._position2s == CardPosition._bottomHandCardPosition2   )
                     {
-                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                        CheckThirdHandCardFamilleCombination2c2s(carteIdHand3, carteIdHand4);
                     }
                     break;
                     case Carte._id2h:
                     if(Carte._position2h == CardPosition._bottomHandCardPosition2   )
                     {
-                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                        CheckThirdHandCardFamilleCombination2c2h(carteIdHand3, carteIdHand4);
                     }
                         break;     
                     case Carte._id2d:
                         if(Carte._position2d == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                            CheckThirdHandCardFamilleCombination2c2d(carteIdHand3, carteIdHand4);          
                         }
                         break;
                 default:break;
-    
             }
-    
         },
 
         CheckSecondHandCardFamilleCombination3s(carteIdHand2, carteIdHand3, carteIdHand4)
@@ -883,26 +871,25 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id3h:
                         if(Carte._position3h == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                            CheckThirdHandCardFamilleCombination3s3h(carteIdHand3, carteIdHand4);
                         }
                         break;
                     case Carte._id3d:
                         if(Carte._position3d == CardPosition._bottomHandCardPosition2  )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                            CheckThirdHandCardFamilleCombination3s3d(carteIdHand3, carteIdHand4);      
                         }
                         break;
                     case Carte._id3c:
                         if(Carte._position3c == CardPosition._bottomHandCardPosition2  )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                            CheckThirdHandCardFamilleCombination3s3c(carteIdHand3, carteIdHand4)
                         }
                         break;
                 default:break;
-    
             }
-    
         },
+  
         CheckSecondHandCardFamilleCombination3h(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -910,24 +897,23 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id3s:
                         if(Carte._position3s == CardPosition._bottomHandCardPosition2  )
                         {
-                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                            CheckThirdHandCardFamilleCombination3h3s(carteIdHand3, carteIdHand4);
                         }
                     break;
                     case Carte._id3d:
                         if(Carte._position3d == CardPosition._bottomHandCardPosition2  )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                            CheckThirdHandCardFamilleCombination3h3d(carteIdHand3, carteIdHand4);          
                         }
                         break;
                     case Carte._id3c:
                         if(Carte._position3c == CardPosition._bottomHandCardPosition2  )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                            CheckThirdHandCardFamilleCombination3h3c(carteIdHand3, carteIdHand4);
                         }
                         break;
                 default:break;
             }
-    
         },
 
         CheckSecondHandCardFamilleCombination3d(carteIdHand2, carteIdHand3, carteIdHand4)
@@ -938,25 +924,23 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id3s:
                         if(Carte._position3s == CardPosition._bottomHandCardPosition2  )
                         {
-                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                            CheckThirdHandCardFamilleCombination3d3s(carteIdHand3, carteIdHand4);
                         }
                     break;
                     case Carte._id3h:
                         if(Carte._position3h == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                            CheckThirdHandCardFamilleCombination3d3h(carteIdHand3, carteIdHand4);
                         }
                         break;
                     case Carte._id3c:
                         if(Carte._position3c == CardPosition._bottomHandCardPosition2  )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                            CheckThirdHandCardFamilleCombination3d3c(carteIdHand3, carteIdHand4);
                         }
                         break;
                 default:break;
-    
             }
-    
         },
 
         CheckSecondHandCardFamilleCombination3c(carteIdHand2, carteIdHand3, carteIdHand4)
@@ -966,19 +950,19 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id3s:
                         if(Carte._position3s == CardPosition._bottomHandCardPosition2  )
                         {
-                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                            CheckThirdHandCardFamilleCombination3c3s(carteIdHand3, carteIdHand4);
                         }
                     break;
                     case Carte._id3h:
                         if(Carte._position3h == CardPosition._bottomHandCardPosition2   )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                            CheckThirdHandCardFamilleCombination3c3h(carteIdHand3, carteIdHand4);
                         }
                         break;
                     case Carte._id3d:
                         if(Carte._position3d == CardPosition._bottomHandCardPosition2  )
                         {
-                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                            CheckThirdHandCardFamilleCombination3c3d(carteIdHand3, carteIdHand4);           
                         }
                         break;
                 default:break;
@@ -2041,7 +2025,636 @@ var BottomPlayerFamilleAcquired ={
                 default:break;
             }
         },
-        
+        CheckThirdHandCardFamilleCombinationAhAs(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._idAd:
+                    if(Carte._positionAd == CardPosition._bottomHandCardPosition3  )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAd, Carte._graphicAd, Carte._graphicIsVisibleOrNotAd, Carte._ShuffleOrNotAd, Carte._positionAd );           
+                }
+                    break;
+                case Carte._idAc:
+                    if(Carte._positionAc == CardPosition._bottomHandCardPosition3 )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAc, Carte._graphicAc, Carte._graphicIsVisibleOrNotAc, Carte._ShuffleOrNotAc, Carte._positionAc );
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAhAd(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               case Carte._idAs:
+                if(Carte._positionAs == CardPosition._bottomHandCardPosition3  )
+                {
+                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                }
+                break;
+                case Carte._idAc:
+                    if(Carte._positionAc == CardPosition._bottomHandCardPosition3 )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAc, Carte._graphicAc, Carte._graphicIsVisibleOrNotAc, Carte._ShuffleOrNotAc, Carte._positionAc );
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAhAc(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               case Carte._idAs:
+                if(Carte._positionAs == CardPosition._bottomHandCardPosition3  )
+                {
+                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                }
+                break;
+                case Carte._idAd:
+                    if(Carte._positionAd == CardPosition._bottomHandCardPosition3  )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAd, Carte._graphicAd, Carte._graphicIsVisibleOrNotAd, Carte._ShuffleOrNotAd, Carte._positionAd );           
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAdAs(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._idAh:
+                    if(Carte._positionAh == CardPosition._bottomHandCardPosition3   )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAh, Carte._graphicAh, Carte._graphicIsVisibleOrNotAh, Carte._ShuffleOrNotAh , Carte._positionAh);
+                }
+                    break;
+                case Carte._idAc:
+                    if(Carte._positionAc == CardPosition._bottomHandCardPosition3 )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAc, Carte._graphicAc, Carte._graphicIsVisibleOrNotAc, Carte._ShuffleOrNotAc, Carte._positionAc );
+                }
+                    break;   
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAdAh(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               case Carte._idAs:
+                if(Carte._positionAs == CardPosition._bottomHandCardPosition3  )
+                {
+                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                }
+                break;
+                    break;
+                case Carte._idAc:
+                    if(Carte._positionAc == CardPosition._bottomHandCardPosition3 )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAc, Carte._graphicAc, Carte._graphicIsVisibleOrNotAc, Carte._ShuffleOrNotAc, Carte._positionAc );
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAdAc(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               case Carte._idAs:
+                if(Carte._positionAs == CardPosition._bottomHandCardPosition3  )
+                {
+                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                }
+                break;
+                case Carte._idAh:
+                    if(Carte._positionAh == CardPosition._bottomHandCardPosition3   )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAh, Carte._graphicAh, Carte._graphicIsVisibleOrNotAh, Carte._ShuffleOrNotAh , Carte._positionAh);
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAcAs(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._idAh:
+                    if(Carte._positionAh == CardPosition._bottomHandCardPosition3   )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAh, Carte._graphicAh, Carte._graphicIsVisibleOrNotAh, Carte._ShuffleOrNotAh , Carte._positionAh);
+                }
+                    break;
+                case Carte._idAd:
+                    if(Carte._positionAd == CardPosition._bottomHandCardPosition3  )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAd, Carte._graphicAd, Carte._graphicIsVisibleOrNotAd, Carte._ShuffleOrNotAd, Carte._positionAd );           
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAcAh(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               case Carte._idAs:
+                if(Carte._positionAs == CardPosition._bottomHandCardPosition3  )
+                {
+                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                }
+                break;
+                case Carte._idAd:
+                    if(Carte._positionAd == CardPosition._bottomHandCardPosition3  )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAd, Carte._graphicAd, Carte._graphicIsVisibleOrNotAd, Carte._ShuffleOrNotAd, Carte._positionAd );           
+                }
+                    break;
+              
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombinationAcAd(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               case Carte._idAs:
+                if(Carte._positionAs == CardPosition._bottomHandCardPosition3  )
+                {
+                Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
+                }
+                break;
+                case Carte._idAh:
+                    if(Carte._positionAh == CardPosition._bottomHandCardPosition3   )
+                {
+                    Carte.ShowLogCartePoperties(Carte._idAh, Carte._graphicAh, Carte._graphicIsVisibleOrNotAh, Carte._ShuffleOrNotAh , Carte._positionAh);
+                }
+                    break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2s2h(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {    
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                    case Carte._id2c:
+                        if(Carte._position2c == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2s2d(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id2h:
+                    if(Carte._position2h == CardPosition._bottomHandCardPosition3   )
+                    {
+                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                    }
+                        break;     
+                    case Carte._id2c:
+                        if(Carte._position2c == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2s2c(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id2h:
+                    if(Carte._position2h == CardPosition._bottomHandCardPosition3   )
+                    {
+                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                    }
+                        break;     
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2h2s(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {    
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                    case Carte._id2c:
+                        if(Carte._position2c == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2h2d(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._id2s:
+                    if(Carte._position2s == CardPosition._bottomHandCardPosition3   )
+                    {
+                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                    }
+                    break;     
+                    case Carte._id2c:
+                        if(Carte._position2c == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2h2c(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._id2s:
+                    if(Carte._position2s == CardPosition._bottomHandCardPosition3   )
+                    {
+                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                    }
+                    break;    
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2d2s(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {    
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                    case Carte._id2c:
+                        if(Carte._position2c == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2d2h(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._id2s:
+                    if(Carte._position2s == CardPosition._bottomHandCardPosition3   )
+                    {
+                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                    }
+                    break;    
+                    case Carte._id2c:
+                        if(Carte._position2c == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2c, Carte._graphic2c, Carte._graphicIsVisibleOrNot2c, Carte._ShuffleOrNot2c , Carte._position2c);
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2d2c(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._id2s:
+                    if(Carte._position2s == CardPosition._bottomHandCardPosition3   )
+                    {
+                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                    }
+                    break;
+                    case Carte._id2h:
+                    if(Carte._position2h == CardPosition._bottomHandCardPosition3   )
+                    {
+                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                    }
+                        break;     
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2c2s(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id2h:
+                    if(Carte._position2h == CardPosition._bottomHandCardPosition3   )
+                    {
+                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                    }
+                        break;     
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2c2h(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._id2s:
+                    if(Carte._position2s == CardPosition._bottomHandCardPosition3   )
+                    {
+                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                    }
+                    break;    
+                    case Carte._id2d:
+                        if(Carte._position2d == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id2d, Carte._graphic2d, Carte._graphicIsVisibleOrNot2d, Carte._ShuffleOrNot2d, Carte._position2d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination2c2d(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                case Carte._id2s:
+                    if(Carte._position2s == CardPosition._bottomHandCardPosition3   )
+                    {
+                    Carte.ShowLogCartePoperties(Carte._id2s, Carte._graphic2s, Carte._graphicIsVisibleOrNot2s, Carte._ShuffleOrNot2s, Carte._position2s );
+                    }
+                    break;
+                    case Carte._id2h:
+                    if(Carte._position2h == CardPosition._bottomHandCardPosition3   )
+                    {
+                        Carte.ShowLogCartePoperties(Carte._id2h, Carte._graphic2h, Carte._graphicIsVisibleOrNot2h, Carte._ShuffleOrNot2h, Carte._position2h );
+                    }
+                        break;     
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3s3h(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3d:
+                        if(Carte._position3d == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                        }
+                        break;
+                    case Carte._id3c:
+                        if(Carte._position3c == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3s3d(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3h:
+                        if(Carte._position3h == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                        }
+                        break;
+                    case Carte._id3c:
+                        if(Carte._position3c == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3s3c(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+               
+                    case Carte._id3h:
+                        if(Carte._position3h == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                        }
+                        break;
+                    case Carte._id3d:
+                        if(Carte._position3d == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3h3s(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3d:
+                        if(Carte._position3d == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                        }
+                        break;
+                    case Carte._id3c:
+                        if(Carte._position3c == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3h3d(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3s:
+                        if(Carte._position3s == CardPosition._bottomHandCardPosition3  )
+                        {
+                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                        }
+                    break;
+                    case Carte._id3c:
+                        if(Carte._position3c == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3h3c(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3s:
+                        if(Carte._position3s == CardPosition._bottomHandCardPosition3  )
+                        {
+                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                        }
+                    break;
+                    case Carte._id3d:
+                        if(Carte._position3d == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3d3s(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3h:
+                        if(Carte._position3h == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                        }
+                        break;
+                    case Carte._id3c:
+                        if(Carte._position3c == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3d3h(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3s:
+                        if(Carte._position3s == CardPosition._bottomHandCardPosition3  )
+                        {
+                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                        }
+                    break;
+                    case Carte._id3c:
+                        if(Carte._position3c == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3c, Carte._graphic3c, Carte._graphicIsVisibleOrNot3c, Carte._ShuffleOrNot3c, Carte._position3c );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3d3c(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3s:
+                        if(Carte._position3s == CardPosition._bottomHandCardPosition3  )
+                        {
+                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                        }
+                    break;
+                    case Carte._id3h:
+                        if(Carte._position3h == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3c3s(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3h:
+                        if(Carte._position3h == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                        }
+                        break;
+                    case Carte._id3d:
+                        if(Carte._position3d == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3c3h(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3s:
+                        if(Carte._position3s == CardPosition._bottomHandCardPosition3  )
+                        {
+                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                        }
+                    break;
+                    case Carte._id3d:
+                        if(Carte._position3d == CardPosition._bottomHandCardPosition3  )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3d, Carte._graphic3d, Carte._graphicIsVisibleOrNot3d, Carte._ShuffleOrNot3d, Carte._position3d );           
+                        }
+                        break;
+                default:break;
+            }
+        },
+        CheckThirdHandCardFamilleCombination3c3d(carteIdHand3, carteIdHand4)
+        {
+            switch(carteIdHand3)
+            {
+                    case Carte._id3s:
+                        if(Carte._position3s == CardPosition._bottomHandCardPosition3  )
+                        {
+                    Carte.ShowLogCartePoperties(Carte._id3s, Carte._graphic3s, Carte._graphicIsVisibleOrNot3s, Carte._ShuffleOrNot3s, Carte._position3s );
+                        }
+                    break;
+                    case Carte._id3h:
+                        if(Carte._position3h == CardPosition._bottomHandCardPosition3   )
+                        {
+                        Carte.ShowLogCartePoperties(Carte._id3h, Carte._graphic3h, Carte._graphicIsVisibleOrNot3h, Carte._ShuffleOrNot3h, Carte._position3h );
+                        }
+                        break;
+                default:break;
+            }
+        },
         CheckFourthHandCardFamilleCombination(carteIdHand4)
         {
             switch(carteIdHand4)
