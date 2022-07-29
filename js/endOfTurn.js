@@ -10,10 +10,7 @@ var EndOfTurn = {
     EndOfTurn._buttonEndOfTurnTop.textContent = buttonEndOfTurnText;
     EndOfTurn._buttonEndOfTurnBottom.textContent = buttonEndOfTurnText;
 
-   
-    
-    
-    
+
     EndOfTurn._buttonEndOfTurnTop.addEventListener("click", function()
     {
         
