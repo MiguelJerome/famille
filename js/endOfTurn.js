@@ -83,6 +83,13 @@ var EndOfTurn = {
     BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
     },
 
+    HideBottomPlayerPickupCard()
+    {
+        BottomPickUpCard._buttonPickUpBottomPlayerCard1.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
+    BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
+    },
     ShowTopPlayerAction()
     {
     TopPlayerHand._buttonDiscardTopPlayerCard1.style.visibility = "visible";

@@ -49,7 +49,12 @@ ShowPressStart()
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxDrawInfoText;
     GameMessageEvent._messageBoxBottomPlayerInfo.textContent = messageBoxDrawInfoText;
 },
-
+ShowMessageForBothPlayerGo()
+{
+   
+    GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Go! Go!";
+    GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Go! Go!";
+}
 
 
 

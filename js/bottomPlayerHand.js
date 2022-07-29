@@ -8,16 +8,16 @@ var BottomPlayerHand ={
 
     ShowAndUpdateAllBottomPlayerHandCard(bottomPlayerHand1, bottomPlayerHand2, bottomPlayerHand3,  bottomPlayerHand4)
     {
-        var buttonDiscardBottomPlayerCard1Text = "Discard " + bottomPlayerHand1 ;
+        var buttonDiscardBottomPlayerCard1Text = bottomPlayerHand1 ;
         BottomPlayerHand._buttonDiscardBottomPlayerCard1.textContent = buttonDiscardBottomPlayerCard1Text;
 
-        var buttonDiscardBottomPlayerCard2Text = "Discard " + bottomPlayerHand2 ;
+        var buttonDiscardBottomPlayerCard2Text = bottomPlayerHand2 ;
         BottomPlayerHand._buttonDiscardBottomPlayerCard2.textContent = buttonDiscardBottomPlayerCard2Text;
 
-        var buttonDiscardBottomPlayerCard3Text = "Discard " + bottomPlayerHand3 ;
+        var buttonDiscardBottomPlayerCard3Text = bottomPlayerHand3 ;
         BottomPlayerHand._buttonDiscardBottomPlayerCard3.textContent = buttonDiscardBottomPlayerCard3Text;
 
-        var buttonDiscardBottomPlayerCard4Text = "Discard " + bottomPlayerHand4 ;
+        var buttonDiscardBottomPlayerCard4Text = bottomPlayerHand4 ;
         BottomPlayerHand._buttonDiscardBottomPlayerCard4.textContent = buttonDiscardBottomPlayerCard4Text;
     }
 };

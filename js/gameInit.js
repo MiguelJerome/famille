@@ -12,6 +12,8 @@ var GameInt ={
     var captionFamilleAcquiredCaptionBottomText = "Famille Acquired = " + FamilleBoard._counterBottomFamilleBoard;
     FamilleBoard._captionFamilleAcquiredCaptionBottom.textContent = captionFamilleAcquiredCaptionBottomText;
     GameMessageEvent.ShowPressStart();
+    EndOfTurn.HideTopPlayerEndOfTurnButton();
+    EndOfTurn.HideBottomPlayerEndOfTurnButton();
     //DeckCard.ShowStartingDeckCartelog();
    // BoardCard.ShowAllBoardCardPreviewTesting();
     },
