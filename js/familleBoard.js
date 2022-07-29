@@ -54,7 +54,7 @@ var FamilleBoard ={
     _timerTop: 0,
     _timerBottom: 0,
     _autoCounterTopPlayerFamille: 0,
-    _botAITimer: 5000,
+    _botAITimer: 1000,
 
     ClearAutoCounterTopPlayerFamille()
     {
