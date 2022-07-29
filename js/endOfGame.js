@@ -11,6 +11,7 @@ var EndOfGame = {
        {
         EndOfTurn.GivePermissionToHideTopAndBottomEndOfurnButton();
         EndOfTurn.GivePermissionToHideTopAndBottomAction();
+        BoardCard.HideAllBoardCards();
             GameMessageEvent.ShowMessageTopPlayerWon();
             FamilleBoard.ClearAutoCounterTopPlayerFamille();
             FamilleBoard.ClearAutoCounterBottomPlayerFamille();
@@ -22,6 +23,7 @@ var EndOfGame = {
         {
             EndOfTurn.GivePermissionToHideTopAndBottomEndOfurnButton();
             EndOfTurn.GivePermissionToHideTopAndBottomAction();
+            BoardCard.HideAllBoardCards();
              GameMessageEvent.ShowMessageBottomPlayerWon();
              FamilleBoard.ClearAutoCounterTopPlayerFamille();
              FamilleBoard.ClearAutoCounterBottomPlayerFamille();

@@ -1,7 +1,7 @@
 var StartRestartGame ={
     RunStartRestartGame()
     {
-        
+        BoardCard.ShowAllBoardCards();
         GameInt.SetAllCardsToTheirStartingGamePosition();
         EndOfTurn.GivePermissionToShowTopAndBottomEndOfurnButton();
         FamilleBoard.ClearBothPlayerFamilleBoard();
