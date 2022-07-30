@@ -1,13 +1,6 @@
 
 GameInt.RunGameInit();
 GameLevel.ShowAllGameRessources();
-//FamilleBoard.ShowFamilleBoard();
-
-//GameMessageEvent.ShowMessageCurrentMessageEvent();
-
-EndOfTurn.ShowBothButtonEndOfTurn();
-
-
 
 GameLevel._buttonStartRestart.addEventListener("click", function()
 {

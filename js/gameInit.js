@@ -6,7 +6,7 @@ var GameInt ={
 
 
 
-        
+
         EndOfTurn.GivePermissionToShowTopAndBottomEndOfurnButton();
         GameInt.SetAllCardsToTheirStartingGamePosition();
         EndOfTurn.HideTopPlayerAction();
@@ -19,8 +19,7 @@ var GameInt ={
     GameMessageEvent.ShowPressStart();
     EndOfTurn.HideTopPlayerEndOfTurnButton();
     EndOfTurn.HideBottomPlayerEndOfTurnButton();
-    //DeckCard.ShowStartingDeckCartelog();
-   // BoardCard.ShowAllBoardCardPreviewTesting();
+  
     },
     SetAllCardsToTheirStartingGamePosition()
     {

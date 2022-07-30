@@ -35,228 +35,8 @@ header
   align-items: center;
 }
 
-.leaderboard-html
-{
-  float:left;
-  color: blueviolet;
-  text-align: left;
-  margin-left: 40px;
-
-}
 
 
-.timer-html
-{
-  float: right;
-  color: blueviolet;
-  text-align: right;
-  margin-right: 40px;
-
-}
-
-.text-widget-layout
-{
-  display:none;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.quiz-info-question-title
-{
-  float: none;
-  text-align: center;
-}
-
-.quiz-info-question-line1
-{
-  float:none;
-  text-align: center;
- margin: 0;
-}
-
-.quiz-info-question-line2
-{
-  text-align: center;
-  margin: 0;
-}
-
-.quiz-info-question-line3
-{
-  text-align: center;
-  margin: 0;
-}
-
-/* menu choice */
-.menu-choice
-{
-  text-decoration:none;
-  font-style: italic;
-}
-
-
-
-.quiz-button1
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color:blueviolet;
-  color: white;
-  border-radius: 8px;
-}
-
-.quiz-button1:hover
-{
-  box-shadow: 1px 1px #301c15;
-  background-color: rgb(219, 104, 241);
-  border: 2px solid rgb(236, 0, 110);
-  transition: all;
-}
-
-.quiz-button2
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color: blueviolet;
-  color: white;
-  border-radius: 8px;
-}
-
-.quiz-button2:hover
-{
-  box-shadow: 1px 1px #301c15;
-  background-color: rgb(219, 104, 241);
-  border: 2px solid rgb(236, 0, 110);
-  transition: all;
-  
-}
-
-.quiz-button3
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color: blueviolet;
-  color: white;
-  border-radius: 8px;
-}
-
-.quiz-button3:hover
-{
-  box-shadow: 1px 1px #301c15;
-  background-color: rgb(219, 104, 241);
-  border: 2px solid rgb(236, 0, 110);
-  transition: all;
-  
-}
-
-.quiz-button4
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color: blueviolet;
-  color: white;
-  border-radius: 8px;
-}
-
-.quiz-button4:hover
-{
-  box-shadow: 1px 1px #301c15;
-  background-color: rgb(219, 104, 241);
-  border: 2px solid rgb(236, 0, 110);
-  transition: all;
-  
-}
-
-.answer_Condition
-{
-
-  height: 50px;
-  width: 200px;
-  font-size: 18px;
-  padding: 20px;
-  display: flex;
-  color: black;
-  text-align: center;
-  margin-right: 40px;
-}
-
-/*form input initiale player*/
-.form-initale-player
-{
-  display: none;
-}
-
-
-.text-input-submit
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color:white;
-  color: black;
-}
-
-.button-submit
-{
-  margin: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration:none;
-  background-color: blueviolet;
-  color: white;
-  border-radius: 8px;
-}
-
-.condition-layout
-{
-  display: flex;
-  color: #b0b6ae;
-}
-
-.horizontal-line
-{
-  margin: 0 auto;
-  border: 1px rgb(163, 165, 163);
-  background-color:#b0b6ae;
-  padding-right: 500px;
-  padding-bottom: 1px;
-  height: 1px;
-  display: flex;
-  border-radius: 8px;
-}
-
-.button-submit:hover
-{
-  box-shadow: 1px 1px #301c15;
-  background-color: rgb(219, 104, 241);
-  border: 2px solid rgb(236, 0, 110);
-  transition: all;
-  
-}
 
 /* footer rules*/
 .about-me
@@ -477,13 +257,24 @@ text-decoration: none;
 /* start quiz button */
 .start-restart-button
 {
+
+ 
+  box-shadow: 1px 1px #301c15;
+  font-size: 6rem;
+  text-shadow: 5px 5px 10px  black;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+text-decoration:none;
+ border-radius: 8px;
+  font-weight: bolder;
   margin: 10px;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration:none;
-  background-color:rgb(43, 101, 226);
+  background-color:#e64398;
   color: white;
   border-radius: 8px;
 }
