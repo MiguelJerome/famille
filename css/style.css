@@ -534,7 +534,6 @@ text-decoration:none;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-  
 }
 
 .message-box-who-won
@@ -543,6 +542,7 @@ text-decoration:none;
   margin-bottom: 2em;
   text-decoration:none;
   font-style: italic;
+  
   
 }
 
@@ -561,11 +561,11 @@ text-decoration:none;
   background-color:#BF953F;
   color: black;
   border-radius: 8px;
- 
+  animation: animate 11s linear infinite;
   font-size: 3rem;
   text-shadow: 5px 5px 10px  black;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 35px #1a1a1b;;
-  animation: animate 10s linear infinite;
+  
   background-size: cover;
   object-fit: cover;
   position: sticky;
