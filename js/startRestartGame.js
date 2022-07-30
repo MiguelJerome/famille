@@ -11,10 +11,13 @@ var StartRestartGame ={
         FamilleBoard.ClearBothPlayerFamilleBoard();
        FamilleAcquiredCaption.ClearBothThenShowUpdatedBottomFamilleAcquiredCaption();
        GameMessageEvent.ClearMessageBox();
-       GameMessageEvent.ShowMessageForBothPlayerGo();
+       
        EndOfTurn.GivePermissionTopPlayerToPlay();
+       GameMessageEvent.ClearShowMessageForPlayerGoInterval();
+       GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
        FamilleBoard.ClearAutoCounterTopPlayerFamille();
        FamilleBoard.ClearAutoCounterBottomPlayerFamille();
+       GameMessageEvent.ShowMessageForBothPlayerGo();
        FamilleBoard.AutoAddANewFamilleToBottomPlayerFamilleBoard();
        FamilleBoard.AutoAddANewFamilleToTopPlayerFamilleBoard();
        EndOfTurn.HideTopPlayerEndOfTurnButton();

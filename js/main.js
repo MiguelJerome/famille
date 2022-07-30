@@ -14,7 +14,8 @@ GameLevel._buttonStartRestart1.addEventListener("click", function()
     StartRestartGame.RunStartRestartGame();
 });
 
-
+GameMessageEvent.ClearShowMessageForPlayerGoInterval();
+GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
 
 
 
