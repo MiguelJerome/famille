@@ -19,5 +19,23 @@ var BottomPlayerHand ={
 
         var buttonDiscardBottomPlayerCard4Text = bottomPlayerHand4 ;
         BottomPlayerHand._buttonDiscardBottomPlayerCard4.textContent = buttonDiscardBottomPlayerCard4Text;
-    }
+    },
+    HideAllBoardCards()
+    {
+        BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard2.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard3.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard4.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard1.textContent = "";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard2.textContent = "";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard3.textContent = "";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard4.textContent = "";
+    },
+    ShowAllBoardCards()
+    {
+        BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "visible";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard2.style.visibility = "visible";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard3.style.visibility = "visible";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard4.style.visibility = "visible";
+    },
 };

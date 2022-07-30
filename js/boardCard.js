@@ -25,6 +25,10 @@ var BoardCard = {
         BoardCard._boardCard2.style.visibility = "hidden";
         BoardCard._boardCard3.style.visibility = "hidden";
         BoardCard._boardCard4.style.visibility = "hidden";
+        BoardCard._boardCard1.textContent = "";
+        BoardCard._boardCard2.textContent = "";
+        BoardCard._boardCard3.textContent = "";
+        BoardCard._boardCard4.textContent = "";
     },
     ShowAllBoardCards()
     {
