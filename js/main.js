@@ -8,6 +8,12 @@ GameLevel._buttonStartRestart.addEventListener("click", function()
     StartRestartGame.RunStartRestartGame();
 });
 
+GameLevel._buttonStartRestart1.addEventListener("click", function()
+{
+    
+    StartRestartGame.RunStartRestartGame();
+});
+
 
 
 
