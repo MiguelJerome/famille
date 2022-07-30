@@ -561,10 +561,10 @@ text-decoration:none;
   background-color:#BF953F;
   color: black;
   border-radius: 8px;
-  animation: animate 11s linear infinite;
+  animation: animate 4s linear infinite;
   font-size: 3rem;
   text-shadow: 5px 5px 10px  black;
-  box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 35px #1a1a1b;;
+  box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 30px #1a1a1a;
   
   background-size: cover;
   object-fit: cover;
