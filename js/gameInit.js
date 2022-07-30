@@ -2,6 +2,10 @@ var GameInt ={
     
     RunGameInit()
     {
+        BoardCard.HideAllBoardCards();
+
+
+
         
         EndOfTurn.GivePermissionToShowTopAndBottomEndOfurnButton();
         GameInt.SetAllCardsToTheirStartingGamePosition();

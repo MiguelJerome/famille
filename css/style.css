@@ -577,6 +577,38 @@ text-decoration: none;
   font-weight: bolder;
 }
 
+.top-player-card
+{
+  text-decoration:none;
+  font-style: italic;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration:none;
+  background-color:#89ABE3FF;
+  color: white;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+
+.bottom-player-card
+{
+  text-decoration:none;
+  font-style: italic;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration:none;
+  background-color:#FF69B4;
+  color: white;
+  border-radius: 8px;
+  font-weight: bolder;
+}
 
 /* End of turn */
 .end-of-turn-layout
