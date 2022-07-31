@@ -25,6 +25,7 @@ body {
   max-width: none;
 }
 
+/* header rules*/
 header
 {
   display:flex;
@@ -34,9 +35,6 @@ header
   justify-content: space-between;
   align-items: center;
 }
-
-
-
 
 /* footer rules*/
 .about-me
@@ -67,13 +65,11 @@ header
 .about-me a
 {
   color: aqua;
- 
 }
 
 a 
 {
-/*remove the underline for the link*/
-text-decoration: none;
+  text-decoration: none;
 }
 
 .header 
@@ -95,24 +91,23 @@ text-decoration: none;
 .header h1 a
 {
   padding: 20px;
-   display:flex;
-   margin:auto;
-   text-align: center;
-   width: 300px;
-   background-color: #d1d0cf;
+  display:flex;
+  margin:auto;
+  text-align: center;
+  width: 300px;
+  background-color: #d1d0cf;
   color: #301c15;
 }
+
  .nav 
- {
+{
   width: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #301c15;
 }
 
-
 .game-rule
 {
-
     border:5px solid #fff;
     height: 100em;
     width: 150em;
@@ -122,7 +117,6 @@ text-decoration: none;
     background-size: cover;
     justify-content:center;
     align-content: flex-start;
-    
     z-index: 9999;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -142,7 +136,6 @@ text-decoration: none;
 
 .game-objective
 {
-
     border:5px solid #fff;
     height: 200em;
     width: 90em;
@@ -152,7 +145,6 @@ text-decoration: none;
     background-size: cover;
     justify-content:center;
     align-content: flex-start;
-    
     z-index: 9999;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -172,8 +164,6 @@ text-decoration: none;
 
 .game-level
 {
-
-    
     height: 475px;
     width: 1000px;
     display: flex;
@@ -182,7 +172,6 @@ text-decoration: none;
     background-size: cover;
     justify-content:center;
     align-content: flex-start;
-    
     z-index: 9999;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -204,33 +193,28 @@ text-decoration: none;
 
 .player-discard
 {
-  
   text-decoration:none;
   font-style: italic;
-    display: flex;
-   
-  }
+  display: flex;
+}
 
 .player-pick-up
 {
-  
   text-decoration:none;
   font-style: italic;
-    display: flex;
-    
+  display: flex; 
 }
 
 
 .start-restart
 {
-    text-decoration:none;
+  text-decoration:none;
   font-style: italic;
 }
 
-/* start quiz button */
+
 .player-action
 {
-  text-decoration:none;
   font-style: italic;
   margin: 10px;
   padding-left: 100px;
@@ -251,22 +235,16 @@ text-decoration: none;
   background-color: rgb(219, 104, 241);
   border: 2px solid rgb(236, 0, 110);
   transition: all;
-  
 }
 
-/* start quiz button */
+
 .start-restart-button
 {
-
- text-align: center;
-  box-shadow: 1px 1px #301c15;
+  text-align: center;
   font-size: 3rem;
   text-shadow: 5px 5px 10px  black;
-
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- 
-text-decoration:none;
- border-radius: 8px;
+  border-radius: 8px;
   font-weight: bolder;
   margin: 10px;
   padding-left: 100px;
@@ -285,32 +263,27 @@ text-decoration:none;
   background-color: rgb(219, 104, 241);
   border: 2px solid rgb(236, 0, 110);
   transition: all;
-  
 }
 
 .player-discard-layout
 {
-  
   text-decoration:none;
   font-style: italic;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .player-pick-up-layout
 {
-  
   text-decoration:none;
   font-style: italic;
- 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
 
 .start-restart-layout
 {
@@ -323,33 +296,27 @@ text-decoration:none;
 .game-level
 {
   display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .game-background-layout
 {
-  
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-
-
-
 .board-card-layout
 {
   margin-top: 99px;
   text-decoration:none;
   font-style: italic;
-  display: flex;
-   
+  display: flex; 
 }
 
 .board-card
@@ -358,8 +325,7 @@ text-decoration:none;
   font-size: 1.5rem;
   text-shadow: 5px 5px 10px  black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- border-radius: 8px;
-
+  border-radius: 8px;
   text-decoration:none;
   font-style: italic;
   margin: 5px;
@@ -380,11 +346,6 @@ text-decoration:none;
   font-size: 1.2rem;
   text-shadow: 5px 5px 10px  black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- border-radius: 8px;
-  
-
-
-
   text-decoration:none;
   font-style: italic;
   margin: 5px;
@@ -406,8 +367,6 @@ text-decoration:none;
   font-size: 1.2rem;
   text-shadow: 5px 5px 10px  black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- border-radius: 8px;
-
   text-decoration:none;
   font-style: italic;
   margin: 5px;
@@ -422,7 +381,6 @@ text-decoration:none;
   font-weight: bolder;
 }
 
-/* End of turn */
 .end-of-turn-layout
 {
     display: flex;
@@ -433,7 +391,7 @@ text-decoration:none;
 
 .end-of-turn
 {
-    text-decoration:none;
+  text-decoration:none;
   font-style: italic;
 }
 
@@ -455,35 +413,33 @@ text-decoration:none;
   box-shadow: 1px 1px #301c15;
   background-color: rgb(219, 104, 241);
   border: 2px solid rgb(236, 0, 110);
-  transition: all;
-  
+  transition: all; 
 }
 
 .famille-acquired-top-wrapper
 {
   display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: center;
-    align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
 }
 
 .famille-acquired-bottom-wrapper
 {
   display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
 }
 
 .famille-acquired-layout
 {
   display: flex;
 }
-
 
 /*famille acquires css style stuff*/
 .famille-acquired-layout2
@@ -496,19 +452,12 @@ text-decoration:none;
 
 .famille-acquired
 {
-    text-decoration:none;
+  text-decoration:none;
   font-style: italic;
 }
 
 .famille-acquired-caption
 {
-  box-shadow: 1px 1px #301c15;
-  font-size: 1.5rem;
-  text-shadow: 5px 5px 10px  black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- border-radius: 8px;
-
-  text-decoration:none;
   font-style: italic;
   margin: 5px;
   padding-left: 20px;
@@ -516,13 +465,11 @@ text-decoration:none;
   padding-top: 30px;
   padding-bottom: 30px;
   text-decoration:none;
-  background: #087ee1;;;
+  background: #087ee1;
   color: white;
   border-radius: 8px;
-  box-shadow: 1px 1px #301c15;
   font-size: 1.5rem;
   text-shadow: 5px 5px 10px  black;
-
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
 }
@@ -542,15 +489,10 @@ text-decoration:none;
   margin-bottom: 2em;
   text-decoration:none;
   font-style: italic;
-  
-  
 }
 
 .message-box-who-won-info
 {
-  
-
-  
   font-style: italic;
   margin: 5px;
   padding-left: 20px;
@@ -559,13 +501,11 @@ text-decoration:none;
   padding-bottom: 30px;
   text-decoration:none;
   background-color:#BF953F;
-  color: black;
   border-radius: 8px;
   animation: animate 4s linear infinite;
   font-size: 3rem;
   text-shadow: 5px 5px 10px  black;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 30px #1a1a1a;
-  
   background-size: cover;
   object-fit: cover;
   position: sticky;
@@ -578,35 +518,25 @@ text-decoration:none;
 
 @keyframes animate
 {
-0%
+  0%
+  {
+   transform:  scale(2); opacity: 0.5;
+    font-size: 0.5rem;
+    transform: rotate(180deg);
+    color: #efd69d;
+  }
+  50%
+  {
+    transform: translateX(45px) translateY(-25px);
+  }
+  100%
+  {
+    transform: translateX(-45px) translateY(25px) rotate(360deg);
+  }
+}
+
+@media (max-width: 1388px)
 {
-
-  transform:  scale(2); opacity: 0.5;
-  font-size: 0.5rem;
-  transform: rotate(180deg);
-  color: #efd69d;
-}
-50%
-{
-  transform: translateX(45px) translateY(-25px);
-}
-100%
-{
-  
-  transform: translateX(-45px) translateY(25px) rotate(360deg);
-}
-
-}
-
-
-
-
-
-
-
-
-@media (max-width: 1388px){
-
   .game-background-layout
   {
     display: flex;
@@ -623,14 +553,11 @@ text-decoration:none;
   .bottom-player-card
   {
     display: flex;
-    
-    font-size: 1rem;
-    
+    font-size: 1rem; 
   }
   .game-level
-{
-  
-  min-width: 550px;
+  {
+    min-width: 550px;
     height: 290px;
     width: 550px;
     display: flex;
@@ -639,42 +566,30 @@ text-decoration:none;
     align-items: center;
     align-content: stretch;
     justify-content: flex-end;
-    
     background-image: url("../img/vecteezy_poker-table-green-cloth-on-dark-background-vector-illustration_6325236.jpg");
     background-size: cover;
-    
-   
-    
     z-index: 9999;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  body
+  {
+    background-color: black;
+  }
 }
-
-
-
-
-body{
-  
-  background-color: black;
-}
-
-}
-
-
 
 @media (min-width:1389px) and (max-width:20000px)
 {
-  body{
+  body
+  {
     background-color: black;
   }
-  .game-background-layout {
+  .game-background-layout 
+  {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: stretch;
     align-items: stretch;
     flex-wrap: nowrap;
-
-}
-
-
+  }
 }
