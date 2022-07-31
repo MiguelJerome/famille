@@ -610,21 +610,21 @@ text-decoration:none;
   .top-player-card
   {
     display: flex;
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   .bottom-player-card
   {
     display: flex;
     
-    font-size: 0.5rem;
+    font-size: 1rem;
     
   }
   .game-level
 {
   
   
-    height: 237px;
-    width: 500px;
+    height: 290px;
+    width: 550px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
