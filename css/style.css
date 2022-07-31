@@ -605,7 +605,7 @@ text-decoration:none;
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1388px){
 
   .game-background-layout
   {
@@ -649,6 +649,9 @@ text-decoration:none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+
+
 body{
   
   background-color: black;
@@ -657,13 +660,21 @@ body{
 }
 
 
-@media (min-width: 1200px){
- 
+
+@media (min-width:1389px) and (max-width:20000px)
+{
   body{
     background-color: black;
   }
+  .game-background-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: nowrap;
 
 }
 
 
-
+}
