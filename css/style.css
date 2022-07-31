@@ -333,7 +333,7 @@ text-decoration:none;
 .game-background-layout
 {
   
-  display: flex;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -607,6 +607,14 @@ text-decoration:none;
 
 @media (max-width: 1200px){
 
+  .game-background-layout
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
   .top-player-card
   {
     display: flex;
@@ -622,7 +630,7 @@ text-decoration:none;
   .game-level
 {
   
-  
+  min-width: 550px;
     height: 290px;
     width: 550px;
     display: flex;
