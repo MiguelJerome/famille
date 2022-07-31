@@ -1,5 +1,4 @@
 var FamilleBoard ={
-    
     _captionFamilleAcquiredCaptionBottom: document.querySelector("#famille-acquired-caption-bottom"),
     _captionFamilleAcquiredCaptionTop: document.querySelector("#famille-acquired-caption-top"),
 
@@ -68,66 +67,63 @@ var FamilleBoard ={
     },
     ShowFamilleBoard()
     {
-    // caption header Famille acquired
-    var captionFamilleAcquiredCaptionBottomText = "Famille Acquired = " + "0";
-    FamilleBoard._captionFamilleAcquiredCaptionBottom.textContent = captionFamilleAcquiredCaptionBottomText;
+         // caption header Famille acquired
+        var captionFamilleAcquiredCaptionBottomText = "Famille Acquired = " + "0";
+        FamilleBoard._captionFamilleAcquiredCaptionBottom.textContent = captionFamilleAcquiredCaptionBottomText;
 
-    var captionFamilleAcquiredCaptionTopText = "Famille Acquired = " + "0";
-    FamilleBoard._captionFamilleAcquiredCaptionTop.textContent = captionFamilleAcquiredCaptionTopText;
+        var captionFamilleAcquiredCaptionTopText = "Famille Acquired = " + "0";
+        FamilleBoard._captionFamilleAcquiredCaptionTop.textContent = captionFamilleAcquiredCaptionTopText;
 
-    // Top Player Famille acquired
-    FamilleBoard._topPlayerFamilleRankA.textContent = "A";
-    FamilleBoard._topPlayerFamilleRank2.textContent = "2";
-    FamilleBoard._topPlayerFamilleRank3.textContent = "3";
-    FamilleBoard._topPlayerFamilleRank4.textContent = "4";
-    FamilleBoard._topPlayerFamilleRank5.textContent = "5";
-    FamilleBoard._topPlayerFamilleRank6.textContent = "6";
-    FamilleBoard._topPlayerFamilleRank7.textContent = "7";
-    FamilleBoard._topPlayerFamilleRank8.textContent = "8";
-    FamilleBoard._topPlayerFamilleRank9.textContent = "9";
-    FamilleBoard._topPlayerFamilleRankT.textContent = "T";
-    FamilleBoard._topPlayerFamilleRankJ.textContent = "J";
-    FamilleBoard._topPlayerFamilleRankQ.textContent = "Q";
-    FamilleBoard._topPlayerFamilleRankK.textContent = "K";
+        // Top Player Famille acquired
+        FamilleBoard._topPlayerFamilleRankA.textContent = "A";
+        FamilleBoard._topPlayerFamilleRank2.textContent = "2";
+        FamilleBoard._topPlayerFamilleRank3.textContent = "3";
+        FamilleBoard._topPlayerFamilleRank4.textContent = "4";
+        FamilleBoard._topPlayerFamilleRank5.textContent = "5";
+        FamilleBoard._topPlayerFamilleRank6.textContent = "6";
+        FamilleBoard._topPlayerFamilleRank7.textContent = "7";
+        FamilleBoard._topPlayerFamilleRank8.textContent = "8";
+        FamilleBoard._topPlayerFamilleRank9.textContent = "9";
+        FamilleBoard._topPlayerFamilleRankT.textContent = "T";
+        FamilleBoard._topPlayerFamilleRankJ.textContent = "J";
+        FamilleBoard._topPlayerFamilleRankQ.textContent = "Q";
+        FamilleBoard._topPlayerFamilleRankK.textContent = "K";
 
-    // Bottom Player Famille acquired
-    FamilleBoard._bottomPlayerFamilleRankA.textContent = "A";
-    FamilleBoard._bottomPlayerFamilleRank2.textContent = "2";
-    FamilleBoard._bottomPlayerFamilleRank3.textContent = "3";
-    FamilleBoard._bottomPlayerFamilleRank4.textContent = "4";
-    FamilleBoard._bottomPlayerFamilleRank5.textContent = "5";
-    FamilleBoard._bottomPlayerFamilleRank6.textContent = "6";
-    FamilleBoard._bottomPlayerFamilleRank7.textContent = "7";
-    FamilleBoard._bottomPlayerFamilleRank8.textContent = "8";
-    FamilleBoard._bottomPlayerFamilleRank9.textContent = "9";
-    FamilleBoard._bottomPlayerFamilleRankT.textContent = "T";
-    FamilleBoard._bottomPlayerFamilleRankJ.textContent = "J";
-    FamilleBoard._bottomPlayerFamilleRankQ.textContent = "Q";
-    FamilleBoard._bottomPlayerFamilleRankK.textContent = "K";
-    
+         // Bottom Player Famille acquired
+        FamilleBoard._bottomPlayerFamilleRankA.textContent = "A";
+        FamilleBoard._bottomPlayerFamilleRank2.textContent = "2";
+        FamilleBoard._bottomPlayerFamilleRank3.textContent = "3";
+        FamilleBoard._bottomPlayerFamilleRank4.textContent = "4";
+        FamilleBoard._bottomPlayerFamilleRank5.textContent = "5";
+        FamilleBoard._bottomPlayerFamilleRank6.textContent = "6";
+        FamilleBoard._bottomPlayerFamilleRank7.textContent = "7";
+        FamilleBoard._bottomPlayerFamilleRank8.textContent = "8";
+        FamilleBoard._bottomPlayerFamilleRank9.textContent = "9";
+        FamilleBoard._bottomPlayerFamilleRankT.textContent = "T";
+        FamilleBoard._bottomPlayerFamilleRankJ.textContent = "J";
+        FamilleBoard._bottomPlayerFamilleRankQ.textContent = "Q";
+        FamilleBoard._bottomPlayerFamilleRankK.textContent = "K"; 
 },
 AutoAddANewFamilleToTopPlayerFamilleBoard()
 {
+            var cardCombinationFamille =13;
 
-     
-    var v =13;
             FamilleBoard._timerTop =   setInterval(function()
             {
-                
-               FamilleBoard.AddANewFamilleToTopPlayerFamilleBoard(Math.floor(Math.random()*v)+1);
+                // random Combination between 1 and 13
+               FamilleBoard.AddANewFamilleToTopPlayerFamilleBoard(Math.floor(Math.random()*cardCombinationFamille)+1);
                EndOfGame.CheckIfTopPlayerWon();
             },FamilleBoard._botAITimer);
            
 },
 AutoAddANewFamilleToBottomPlayerFamilleBoard()
 {
+            var cardCombinationFamille =13;
 
-     
-    var v =13;
             FamilleBoard._timerBottom=   setInterval(function()
             {
-                
-               FamilleBoard.AddANewFamilleToBottomPlayerFamilleBoard(Math.floor(Math.random()*v)+1);
+                // random Combination between 1 and 13
+               FamilleBoard.AddANewFamilleToBottomPlayerFamilleBoard(Math.floor(Math.random()*cardCombinationFamille)+1);
                EndOfGame.CheckIfBottomPlayerWon();
             },FamilleBoard._botAITimer);
            
@@ -383,7 +379,6 @@ AddANewFamilleToBottomPlayerFamilleBoard(combination)
             break;   
         default:break;
     }
-
 },
 ClearTopPlayerFamilleBoard()
 {

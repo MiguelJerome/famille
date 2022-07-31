@@ -2,30 +2,27 @@ var EndOfTurn = {
     _buttonEndOfTurnTop: document.querySelector("#end-of-turn-top-button"),
     _buttonEndOfTurnBottom: document.querySelector("#end-of-turn-bottom-button"),
 
-    // end of turn button
+ShowBothButtonEndOfTurn()
+{
+        var buttonEndOfTurnText = "End of turn";
 
-    ShowBothButtonEndOfTurn()
-    {
-    var buttonEndOfTurnText = "End of turn";
-    EndOfTurn._buttonEndOfTurnTop.textContent = buttonEndOfTurnText;
-    EndOfTurn._buttonEndOfTurnBottom.textContent = buttonEndOfTurnText;
+        EndOfTurn._buttonEndOfTurnTop.textContent = buttonEndOfTurnText;
+        EndOfTurn._buttonEndOfTurnBottom.textContent = buttonEndOfTurnText;
 
-
-    EndOfTurn._buttonEndOfTurnTop.addEventListener("click", function()
-    {
-        
-        EndOfTurn.GivePermissionBottomPlayerToPlay();
-        GameMessageEvent.ShowMessageBottomPlayerItIsYourTurn();
-        EndOfGame.CheckIfTopPlayerWon();
-    });
+        EndOfTurn._buttonEndOfTurnTop.addEventListener("click", function()
+        {
+            EndOfTurn.GivePermissionBottomPlayerToPlay();
+            GameMessageEvent.ShowMessageBottomPlayerItIsYourTurn();
+            EndOfGame.CheckIfTopPlayerWon();
+        });
     
-    EndOfTurn._buttonEndOfTurnBottom.addEventListener("click", function()
-    {
-        EndOfTurn.GivePermissionTopPlayerToPlay();
-        GameMessageEvent.ShowMessageTopPlayerItIsYourTurn();
-        EndOfGame.CheckIfBottomPlayerWon();
-    });
-},
+        EndOfTurn._buttonEndOfTurnBottom.addEventListener("click", function()
+        {
+         EndOfTurn.GivePermissionTopPlayerToPlay();
+            GameMessageEvent.ShowMessageTopPlayerItIsYourTurn();
+            EndOfGame.CheckIfBottomPlayerWon();
+        });
+    },
     GivePermissionTopPlayerToPlay()
     {
         EndOfTurn.ShowTopPlayerAction();

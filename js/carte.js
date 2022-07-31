@@ -438,15 +438,12 @@ var Carte = {
             default:break;
 
         }
-    },
-           
+    },          
     ShowLogCartePoperties(carteId, carteGraphic, carteVisibilityState, carteShuffleState, cartePosition)
     {
-                console.log("id " + carteId +" Graphic: " + carteGraphic);
-                console.log("id " + carteId + " visibility: " + carteVisibilityState);
-                console.log("id " + carteId + " shuffle: " + carteShuffleState);
-                console.log("id " + carteId + " position: " + cartePosition);
+        console.log("id " + carteId +" Graphic: " + carteGraphic);
+        console.log("id " + carteId + " visibility: " + carteVisibilityState);
+        console.log("id " + carteId + " shuffle: " + carteShuffleState);
+        console.log("id " + carteId + " position: " + cartePosition);
     }
-
-
 };

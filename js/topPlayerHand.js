@@ -1,6 +1,4 @@
 var TopPlayerHand ={
-
-    
     _buttonDiscardTopPlayerCard1: document.querySelector("#discard-top-player-card1"),
     _buttonDiscardTopPlayerCard2: document.querySelector("#discard-top-player-card2"),
     _buttonDiscardTopPlayerCard3: document.querySelector("#discard-top-player-card3"),

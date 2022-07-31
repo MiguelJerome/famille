@@ -1,5 +1,4 @@
 var BoardCard = {
-
     _boardCard1: document.querySelector("#board-card1"),
     _boardCard2: document.querySelector("#board-card2"),
     _boardCard3: document.querySelector("#board-card3"),
@@ -7,17 +6,17 @@ var BoardCard = {
 
     ShowAllBoardCardPreviewTesting()
     {
-          /* Board Card*/
-          var boardCard1 = "K♠";
-          BoardCard._boardCard1.textContent = boardCard1;
-          var boardCard2 = "K❤";
-          BoardCard._boardCard2.textContent = boardCard2;
+        /* Board Card*/
+        var boardCard1 = "K♠";
+        BoardCard._boardCard1.textContent = boardCard1;
+        var boardCard2 = "K❤";
+        BoardCard._boardCard2.textContent = boardCard2;
   
-          var boardCard3 = "K♦";
-          BoardCard._boardCard3.textContent = boardCard3;
+        var boardCard3 = "K♦";
+        BoardCard._boardCard3.textContent = boardCard3;
   
-          var boardCard4 = "K♣";
-          BoardCard._boardCard4.textContent = boardCard4;
+        var boardCard4 = "K♣";
+        BoardCard._boardCard4.textContent = boardCard4;
     },
     HideAllBoardCards()
     {
@@ -65,8 +64,5 @@ var BoardCard = {
         BoardCard.ShowForthBoardCard(forthCardGraphic);
         BottomPickUpCard.ShowAndUpdateAllBottomPickupCard(firstCardGraphic,secondCardGraphic,thirdCardGraphic,forthCardGraphic);
         TopPickUpCard.ShowAndUpdateAllTopPickupCard(firstCardGraphic,secondCardGraphic,thirdCardGraphic,forthCardGraphic);
-
     }
-
-
-}
+};

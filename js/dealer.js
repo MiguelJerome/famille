@@ -1,6 +1,4 @@
 var  Dealer = {
-
-    
     RemoveAllCardsAFromTheGame()
     {
         Carte._positionAc = CardPosition._deadZonePosition;
@@ -91,6 +89,5 @@ var  Dealer = {
         Carte._positionKd = CardPosition._deadZonePosition;
         Carte._positionKh = CardPosition._deadZonePosition;
         Carte._positionKs = CardPosition._deadZonePosition;
-    }
-    
+    }  
 };

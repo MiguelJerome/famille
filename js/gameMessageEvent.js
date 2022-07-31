@@ -8,7 +8,6 @@ var GameMessageEvent = {
 
 ShowMessageCurrentMessageEvent()
 {
-   
      // message box who won the game
      var messageBoxWhoWonInfoText = "Top Player Won";
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxWhoWonInfoText;
@@ -59,27 +58,8 @@ ShowPressStart()
 },
 ShowMessageForBothPlayerGo()
 { 
-    
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Go! Go!";
-GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Go! Go!";
-
-
-   /* 
-    GameMessageEvent._intervalGameInPlay =   setInterval(function()
-    {
-        GameMessageEvent.ShowMessageGet7FamilleAndWin();
-
-
-       // GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Get 7 And Win";
-        //GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Get 7 And Win";
-        //GameMessageEvent.ShowMessageForBothPlayerGo();
-      
-       
-    },GameMessageEvent._timerIntervalGameInPlay);
-    */
-
-   // GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Go! Go!";
-   // GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Go! Go!";
+    GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Go! Go!";
 
 },
 ClearShowMessageForPlayerGoInterval()
@@ -91,25 +71,10 @@ ShowMessageGet7FamilleAndWin()
 {
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Get 7 And Win";
     GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Get 7 And Win";
-/*
-    GameMessageEvent._intervalGameInPlayGet7 =   setInterval(function()
-    {
-        
-        GameMessageEvent.ShowMessageForBothPlayerGo();
-       
-      
-       
-    },GameMessageEvent._timerIntervalGameInPlay);
-    */
-
 },
 ClearShowMessageForPlayerGoIntervalGet7()
 {
-    
-    
     clearInterval(GameMessageEvent._intervalGameInPlayGet7);
 }
-
-
 
 };

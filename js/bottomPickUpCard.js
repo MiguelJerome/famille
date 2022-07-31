@@ -1,5 +1,4 @@
 var BottomPickUpCard ={
-
     _buttonPickUpBottomPlayerCard1: document.querySelector("#pick-up-bottom-player-card1"),
     _buttonPickUpBottomPlayerCard2: document.querySelector("#pick-up-bottom-player-card2"),
     _buttonPickUpBottomPlayerCard3: document.querySelector("#pick-up-bottom-player-card3"),

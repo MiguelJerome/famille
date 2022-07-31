@@ -1,5 +1,4 @@
 var FamilleAcquiredCaption = {
-
     ShowUpdatedTopFamilleAcquiredCaption()
     {
         FamilleBoard._counterAllFamilleBoard = ++FamilleBoard._counterTopFamilleBoard;
@@ -10,7 +9,6 @@ var FamilleAcquiredCaption = {
         FamilleBoard._counterAllFamilleBoard = ++FamilleBoard._counterBottomFamilleBoard;
         FamilleBoard._captionFamilleAcquiredCaptionBottom.textContent = "Famille Acquired = " + FamilleBoard._counterBottomFamilleBoard;
     },
-
     ClearThenShowUpdatedTopFamilleAcquiredCaption()
     {
         FamilleBoard._counterAllFamilleBoard = 0;
@@ -28,5 +26,4 @@ var FamilleAcquiredCaption = {
         FamilleAcquiredCaption.ClearThenShowUpdatedTopFamilleAcquiredCaption();
         FamilleAcquiredCaption.ClearThenShowUpdatedBottomFamilleAcquiredCaption();
     }
-
-}
+};

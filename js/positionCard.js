@@ -226,6 +226,4 @@ var CardPosition ={
     _graveyardCardDeck50: 350,
     _graveyardCardDeck51: 351,
     _graveyardCardDeck52: 352,
-    
-
 };

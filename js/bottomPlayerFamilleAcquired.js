@@ -1,5 +1,4 @@
 var BottomPlayerFamilleAcquired ={
-    
     CheckFirstCardHandFamilleCombination(carteIdHand1, carteIdHand2, carteIdHand3, carteIdHand4 )
     {
         switch(carteIdHand1)
@@ -2972,15 +2971,7 @@ var BottomPlayerFamilleAcquired ={
                         Carte.ShowLogCartePoperties(Carte._idKc, Carte._graphicKc, Carte._graphicIsVisibleOrNotKc, Carte._ShuffleOrNotKc, Carte._positionKc );
                         }
                         break;
-    
-    
                 default:break;
-    
             }
-    
         }
-
-
-    
- 
 };

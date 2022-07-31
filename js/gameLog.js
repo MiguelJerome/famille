@@ -341,8 +341,6 @@ var GameLog ={
 
 
             default:break;
-
         }
-
     }
 };
