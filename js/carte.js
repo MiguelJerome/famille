@@ -272,6 +272,89 @@ var Carte = {
     _ShuffleOrNotKc: 0,
     _positionKc: CardPosition._startingCardDeck52,
 
+    _cardAllSpadesSuit: [],
+    _cardAllHeartsSuit: [],
+    _cardAllDiamondsSuit: [],
+    _cardAllClubsSuit: [],
+
+    _indexFamilleA: 0,
+    _indexFamille2: 1,
+    _indexFamille3: 2,
+    _indexFamille4: 3,
+    _indexFamille5: 4,
+    _indexFamille6: 5,
+    _indexFamille7: 6,
+    _indexFamille8: 7,
+    _indexFamille9: 8,
+    _indexFamilleT: 9,
+    _indexFamilleJ: 10,
+    _indexFamilleQ: 11,
+    _indexFamilleK: 12,
+    
+    AddAllSpadesSuitToTheArray()
+    {
+        Carte._cardAllSpadesSuit.push(Carte._graphicAs);
+        Carte._cardAllSpadesSuit.push(Carte._graphic2s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic3s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic4s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic5s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic6s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic7s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic8s);
+        Carte._cardAllSpadesSuit.push(Carte._graphic9s);
+        Carte._cardAllSpadesSuit.push(Carte._graphicTs);
+        Carte._cardAllSpadesSuit.push(Carte._graphicJs);
+        Carte._cardAllSpadesSuit.push(Carte._graphicQs);
+        Carte._cardAllSpadesSuit.push(Carte._graphicKs);
+    },
+    AddAllHeartsSuitToTheArray()
+    {
+        Carte._cardAllHeartsSuit.push(Carte._graphicAh);
+        Carte._cardAllHeartsSuit.push(Carte._graphic2h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic3h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic4h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic5h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic6h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic7h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic8h);
+        Carte._cardAllHeartsSuit.push(Carte._graphic9h);
+        Carte._cardAllHeartsSuit.push(Carte._graphicTh);
+        Carte._cardAllHeartsSuit.push(Carte._graphicJh);
+        Carte._cardAllHeartsSuit.push(Carte._graphicQh);
+        Carte._cardAllHeartsSuit.push(Carte._graphicKh);
+    },
+    AddAllDiamondsSuitToTheArray()
+    {
+        Carte._cardAllDiamondsSuit.push(Carte._graphicAd);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic2d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic3d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic4d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic5d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic6d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic7d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic8d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphic9d);
+        Carte._cardAllDiamondsSuit.push(Carte._graphicTd);
+        Carte._cardAllDiamondsSuit.push(Carte._graphicJd);
+        Carte._cardAllDiamondsSuit.push(Carte._graphicQd);
+        Carte._cardAllDiamondsSuit.push(Carte._graphicKd);
+    },
+    AddAllClubsSuitToTheArray()
+    {
+        Carte._cardAllClubsSuit.push(Carte._graphicAc);
+        Carte._cardAllClubsSuit.push(Carte._graphic2c);
+        Carte._cardAllClubsSuit.push(Carte._graphic3c);
+        Carte._cardAllClubsSuit.push(Carte._graphic4c);
+        Carte._cardAllClubsSuit.push(Carte._graphic5c);
+        Carte._cardAllClubsSuit.push(Carte._graphic6c);
+        Carte._cardAllClubsSuit.push(Carte._graphic7c);
+        Carte._cardAllClubsSuit.push(Carte._graphic8c);
+        Carte._cardAllClubsSuit.push(Carte._graphic9c);
+        Carte._cardAllClubsSuit.push(Carte._graphicTc);
+        Carte._cardAllClubsSuit.push(Carte._graphicJc);
+        Carte._cardAllClubsSuit.push(Carte._graphicQc);
+        Carte._cardAllClubsSuit.push(Carte._graphicKc);
+    },
     ShowGameStartAllCardsProperties(carteId)
     {
         switch(carteId)

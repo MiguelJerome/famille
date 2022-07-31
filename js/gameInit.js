@@ -2,6 +2,11 @@ var GameInt ={
     
     RunGameInit()
     {
+        Carte.AddAllSpadesSuitToTheArray();
+        Carte.AddAllHeartsSuitToTheArray();
+        Carte.AddAllDiamondsSuitToTheArray();
+        Carte.AddAllClubsSuitToTheArray();
+        
         BoardCard.HideAllBoardCards();
         EndOfTurn.GivePermissionToShowTopAndBottomEndOfurnButton();
         GameInt.SetAllCardsToTheirStartingGamePosition();
