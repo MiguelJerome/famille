@@ -56,7 +56,7 @@ var BoardCard = {
        // BoardCard._boardCard4.style.visibility = "visible";
         BoardCard._boardCard4.textContent = cardGraphic;
     },
-    ShowAllBoardCard1(firstCardGraphic, secondCardGraphic, thirdCardGraphic, forthCardGraphic)
+    ShowAndUpdateTopPlayerHandCard(firstCardGraphic, secondCardGraphic, thirdCardGraphic, forthCardGraphic)
     {
         BoardCard.ShowFirstBoardCard(firstCardGraphic);
         BoardCard.ShowSecondBoardCard(secondCardGraphic);

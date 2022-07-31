@@ -149,7 +149,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRankA:
             if(Carte._positionAs == CardPosition._startingCardDeck1 && Carte._positionAh == CardPosition._startingCardDeck2 && Carte._positionAd == CardPosition._startingCardDeck3 && Carte._positionAc == CardPosition._startingCardDeck4)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamilleA], Carte._cardAllHeartsSuit[Carte._indexFamilleA],     Carte._cardAllDiamondsSuit[Carte._indexFamilleA], Carte._cardAllClubsSuit[Carte._indexFamilleA]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamilleA], Carte._cardAllHeartsSuit[Carte._indexFamilleA],     Carte._cardAllDiamondsSuit[Carte._indexFamilleA], Carte._cardAllClubsSuit[Carte._indexFamilleA]);
                 FamilleBoard._topPlayerFamilleRankA.textContent = "A";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCardsAFromTheGame();
@@ -158,7 +158,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank2:
             if(Carte._position2s == CardPosition._startingCardDeck5 && Carte._position2h == CardPosition._startingCardDeck6 && Carte._position2d == CardPosition._startingCardDeck7 && Carte._position2c == CardPosition._startingCardDeck8)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille2], Carte._cardAllHeartsSuit[Carte._indexFamille2], Carte._cardAllDiamondsSuit[Carte._indexFamille2], Carte._cardAllClubsSuit[Carte._indexFamille2]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille2], Carte._cardAllHeartsSuit[Carte._indexFamille2], Carte._cardAllDiamondsSuit[Carte._indexFamille2], Carte._cardAllClubsSuit[Carte._indexFamille2]);
                 FamilleBoard._topPlayerFamilleRank2.textContent = "2";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards2FromTheGame();
@@ -168,7 +168,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank3:
             if(Carte._position3s == CardPosition._startingCardDeck9 && Carte._position3h == CardPosition._startingCardDeck10 && Carte._position3d == CardPosition._startingCardDeck11 && Carte._position3c == CardPosition._startingCardDeck12)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille3], Carte._cardAllHeartsSuit[Carte._indexFamille3], Carte._cardAllDiamondsSuit[Carte._indexFamille3], Carte._cardAllClubsSuit[Carte._indexFamille3]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille3], Carte._cardAllHeartsSuit[Carte._indexFamille3], Carte._cardAllDiamondsSuit[Carte._indexFamille3], Carte._cardAllClubsSuit[Carte._indexFamille3]);
                 FamilleBoard._topPlayerFamilleRank3.textContent = "3";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards3FromTheGame();
@@ -178,7 +178,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank4:
             if(Carte._position4s == CardPosition._startingCardDeck13 && Carte._position4h == CardPosition._startingCardDeck14 && Carte._position4d == CardPosition._startingCardDeck15 && Carte._position4c == CardPosition._startingCardDeck16)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille4], Carte._cardAllHeartsSuit[Carte._indexFamille4], Carte._cardAllDiamondsSuit[Carte._indexFamille4], Carte._cardAllClubsSuit[Carte._indexFamille4]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille4], Carte._cardAllHeartsSuit[Carte._indexFamille4], Carte._cardAllDiamondsSuit[Carte._indexFamille4], Carte._cardAllClubsSuit[Carte._indexFamille4]);
                 FamilleBoard._topPlayerFamilleRank4.textContent = "4";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards4FromTheGame();
@@ -187,7 +187,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank5:
             if(Carte._position5s == CardPosition._startingCardDeck17 && Carte._position5h == CardPosition._startingCardDeck18 && Carte._position5d == CardPosition._startingCardDeck19 && Carte._position5c == CardPosition._startingCardDeck20)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille5], Carte._cardAllHeartsSuit[Carte._indexFamille5], Carte._cardAllDiamondsSuit[Carte._indexFamille5], Carte._cardAllClubsSuit[Carte._indexFamille5]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille5], Carte._cardAllHeartsSuit[Carte._indexFamille5], Carte._cardAllDiamondsSuit[Carte._indexFamille5], Carte._cardAllClubsSuit[Carte._indexFamille5]);
                 FamilleBoard._topPlayerFamilleRank5.textContent = "5";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards5FromTheGame();
@@ -196,7 +196,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank6:
             if(Carte._position6s == CardPosition._startingCardDeck21 && Carte._position6h == CardPosition._startingCardDeck22 && Carte._position6d == CardPosition._startingCardDeck23 && Carte._position6c == CardPosition._startingCardDeck24)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille6], Carte._cardAllHeartsSuit[Carte._indexFamille6], Carte._cardAllDiamondsSuit[Carte._indexFamille6], Carte._cardAllClubsSuit[Carte._indexFamille6]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille6], Carte._cardAllHeartsSuit[Carte._indexFamille6], Carte._cardAllDiamondsSuit[Carte._indexFamille6], Carte._cardAllClubsSuit[Carte._indexFamille6]);
                 FamilleBoard._topPlayerFamilleRank6.textContent = "6";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards6FromTheGame();
@@ -205,7 +205,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank7:
             if(Carte._position7s == CardPosition._startingCardDeck25 && Carte._position7h == CardPosition._startingCardDeck26 && Carte._position7d == CardPosition._startingCardDeck27 && Carte._position7c == CardPosition._startingCardDeck28)
             {
-            BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille7], Carte._cardAllHeartsSuit[Carte._indexFamille7], Carte._cardAllDiamondsSuit[Carte._indexFamille7], Carte._cardAllClubsSuit[Carte._indexFamille7]);
+            BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille7], Carte._cardAllHeartsSuit[Carte._indexFamille7], Carte._cardAllDiamondsSuit[Carte._indexFamille7], Carte._cardAllClubsSuit[Carte._indexFamille7]);
             FamilleBoard._topPlayerFamilleRank7.textContent = "7";
             FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
             Dealer.RemoveAllCards7FromTheGame();
@@ -214,7 +214,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank8:
             if(Carte._position8s == CardPosition._startingCardDeck29 && Carte._position8h == CardPosition._startingCardDeck30 && Carte._position8d == CardPosition._startingCardDeck31 && Carte._position8c == CardPosition._startingCardDeck32)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille8], Carte._cardAllHeartsSuit[Carte._indexFamille8], Carte._cardAllDiamondsSuit[Carte._indexFamille8], Carte._cardAllClubsSuit[Carte._indexFamille8]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille8], Carte._cardAllHeartsSuit[Carte._indexFamille8], Carte._cardAllDiamondsSuit[Carte._indexFamille8], Carte._cardAllClubsSuit[Carte._indexFamille8]);
                 FamilleBoard._topPlayerFamilleRank8.textContent = "8";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards8FromTheGame();
@@ -223,7 +223,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRank9:
             if(Carte._position9s == CardPosition._startingCardDeck33 && Carte._position9h == CardPosition._startingCardDeck34 && Carte._position9d == CardPosition._startingCardDeck35 && Carte._position9c == CardPosition._startingCardDeck36)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamille9], Carte._cardAllHeartsSuit[Carte._indexFamille9], Carte._cardAllDiamondsSuit[Carte._indexFamille9], Carte._cardAllClubsSuit[Carte._indexFamille9]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille9], Carte._cardAllHeartsSuit[Carte._indexFamille9], Carte._cardAllDiamondsSuit[Carte._indexFamille9], Carte._cardAllClubsSuit[Carte._indexFamille9]);
                 FamilleBoard._topPlayerFamilleRank9.textContent = "9";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCards9FromTheGame();
@@ -232,7 +232,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRankT:
             if(Carte._positionTs == CardPosition._startingCardDeck37 && Carte._positionTh == CardPosition._startingCardDeck38 && Carte._positionTd == CardPosition._startingCardDeck39 && Carte._positionTc == CardPosition._startingCardDeck40)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamilleT], Carte._cardAllHeartsSuit[Carte._indexFamilleT], Carte._cardAllDiamondsSuit[Carte._indexFamilleT], Carte._cardAllClubsSuit[Carte._indexFamilleT]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamilleT], Carte._cardAllHeartsSuit[Carte._indexFamilleT], Carte._cardAllDiamondsSuit[Carte._indexFamilleT], Carte._cardAllClubsSuit[Carte._indexFamilleT]);
                 FamilleBoard._topPlayerFamilleRankT.textContent = "T";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCardsTFromTheGame();
@@ -241,7 +241,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRankJ:
             if(Carte._positionJs == CardPosition._startingCardDeck41 && Carte._positionJh == CardPosition._startingCardDeck42 && Carte._positionJd == CardPosition._startingCardDeck43 && Carte._positionJc == CardPosition._startingCardDeck44)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamilleJ], Carte._cardAllHeartsSuit[Carte._indexFamilleJ], Carte._cardAllDiamondsSuit[Carte._indexFamilleJ], Carte._cardAllClubsSuit[Carte._indexFamilleJ]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamilleJ], Carte._cardAllHeartsSuit[Carte._indexFamilleJ], Carte._cardAllDiamondsSuit[Carte._indexFamilleJ], Carte._cardAllClubsSuit[Carte._indexFamilleJ]);
                 FamilleBoard._topPlayerFamilleRankJ.textContent = "J";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCardsJFromTheGame();
@@ -250,7 +250,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRankQ:
             if(Carte._positionQs == CardPosition._startingCardDeck45 && Carte._positionQh == CardPosition._startingCardDeck46 && Carte._positionQd == CardPosition._startingCardDeck47 && Carte._positionQc == CardPosition._startingCardDeck48)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamilleQ], Carte._cardAllHeartsSuit[Carte._indexFamilleQ], Carte._cardAllDiamondsSuit[Carte._indexFamilleQ], Carte._cardAllClubsSuit[Carte._indexFamilleQ]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamilleQ], Carte._cardAllHeartsSuit[Carte._indexFamilleQ], Carte._cardAllDiamondsSuit[Carte._indexFamilleQ], Carte._cardAllClubsSuit[Carte._indexFamilleQ]);
                 FamilleBoard._topPlayerFamilleRankQ.textContent = "Q";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCardsQFromTheGame();
@@ -259,7 +259,7 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         case FamilleBoard._combinationRankK:
             if(Carte._positionKs == CardPosition._startingCardDeck49 && Carte._positionKh == CardPosition._startingCardDeck50 && Carte._positionKd == CardPosition._startingCardDeck51 && Carte._positionKc == CardPosition._startingCardDeck52)
             {
-                BoardCard.ShowAllBoardCard1(Carte._cardAllSpadesSuit[Carte._indexFamilleK], Carte._cardAllHeartsSuit[Carte._indexFamilleK], Carte._cardAllDiamondsSuit[Carte._indexFamilleK], Carte._cardAllClubsSuit[Carte._indexFamilleK]);
+                BoardCard.ShowAndUpdateTopPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamilleK], Carte._cardAllHeartsSuit[Carte._indexFamilleK], Carte._cardAllDiamondsSuit[Carte._indexFamilleK], Carte._cardAllClubsSuit[Carte._indexFamilleK]);
                 FamilleBoard._topPlayerFamilleRankK.textContent = "K";
                 FamilleAcquiredCaption.ShowUpdatedTopFamilleAcquiredCaption();
                 Dealer.RemoveAllCardsKFromTheGame();
