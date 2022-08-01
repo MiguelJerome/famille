@@ -736,7 +736,16 @@ a
     justify-content: center;
     align-items: center;
 }
-
+.output-body
+{
+  display: flex;
+    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+}
 
 
 }
