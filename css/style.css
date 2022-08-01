@@ -699,6 +699,32 @@ a
 
 }
 
+.famille-acquired-top-wrapper
+{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.famille-acquired-bottom-wrapper
+{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+
+
+
+
 }
 
 @media (min-width:1701px) and (max-width:20000px)
@@ -738,7 +764,7 @@ a
 }
 .major-wrapper-container
 {
-  height: 1100px;
+  height: 1040px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -747,4 +773,34 @@ a
   justify-content: center;
 
 }
+.mesage-box-wrapper
+{
+  display: flex;
+
+}
+
+.famille-acquired-top-wrapper
+{
+  height: 695px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.famille-acquired-bottom-wrapper
+{
+  height: 695px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 }
