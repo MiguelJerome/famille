@@ -25,6 +25,9 @@ body {
   max-width: none;
 }
 
+
+
+
 /* header rules*/
 header
 {
@@ -249,7 +252,7 @@ a
 {
   animation: animateStartButton 4s linear infinite;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-shadow: 5px 5px 10px  black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-radius: 8px;
@@ -501,8 +504,8 @@ a
 
 .message-box-who-won
 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-decoration:none;
   font-style: italic;
 }
@@ -519,7 +522,7 @@ a
   background-color:#BF953F;
   border-radius: 8px;
   animation: animateMessageEventGame 4s linear infinite;
-  font-size: 3rem;
+  font-size: 1.9rem;
   text-shadow: 5px 5px 10px  black;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 30px #1a1a1a;
   background-size: cover;
@@ -537,7 +540,7 @@ a
   0%
   {
    transform:  scale(2); opacity: 0.5;
-    font-size: 0.5rem;
+    font-size:1rem;
     transform: rotate(180deg);
     color: #efd69d;
   }
@@ -557,16 +560,17 @@ a
   {
    transform:  scale(1); opacity: 0.5;
     font-size: 0.5rem;
-    
     color:  rgb(219, 104, 241);
   }
   
-
 }
 
+.control-message-event
+{
+  display: flex;
+}
 
-
-@media (max-width: 1388px)
+@media (max-width:1700px)
 {
   .game-background-layout
   {
@@ -606,9 +610,28 @@ a
   {
     background-color: black;
   }
+  .control-message-event
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .middle-keeping-all-mid-together
+{
+  
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (min-width:1389px) and (max-width:20000px)
+}
+
+@media (min-width:1701px) and (max-width:20000px)
 {
   body
   {
@@ -623,4 +646,5 @@ a
     align-items: stretch;
     flex-wrap: nowrap;
   }
+
 }
