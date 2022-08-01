@@ -652,8 +652,8 @@ a
   .game-level
   {
     min-width: 550px;
-    height: 290px;
-    width: 550px;
+    height: 19rem;
+    width: 3rem;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
