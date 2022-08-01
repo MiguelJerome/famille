@@ -205,6 +205,13 @@ a
   display: flex; 
 }
 
+.player-pick-up-bottom
+{
+  text-decoration:none;
+  font-style: italic;
+  display: flex; 
+}
+
 
 .start-restart
 {
