@@ -55,6 +55,7 @@ var FamilleBoard ={
     _autoCounterTopPlayerFamille: 0,
     _botAITimer: 1000,
     
+    
 
     ClearAutoCounterTopPlayerFamille()
     {

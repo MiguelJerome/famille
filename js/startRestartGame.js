@@ -22,5 +22,6 @@ var StartRestartGame ={
         EndOfTurn.HideTopPlayerAction();
         EndOfTurn.ShowBottomPlayerAction();
         EndOfTurn.HideBottomPlayerPickupCard();
+        EndOfTurn.HideAllDisplaysLayoutFromTheGame();
     }
 }

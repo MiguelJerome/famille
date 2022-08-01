@@ -2,6 +2,7 @@ var GameInt ={
     
     RunGameInit()
     {
+        
         Carte.AddAllSpadesSuitToTheArray();
         Carte.AddAllHeartsSuitToTheArray();
         Carte.AddAllDiamondsSuitToTheArray();
@@ -21,6 +22,7 @@ var GameInt ={
         GameMessageEvent.ShowPressStart();
         EndOfTurn.HideTopPlayerEndOfTurnButton();
         EndOfTurn.HideBottomPlayerEndOfTurnButton();
+        EndOfTurn.HideAllDisplaysLayoutFromTheGame();
     },
     SetAllCardsToTheirStartingGamePosition()
     {

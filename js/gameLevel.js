@@ -7,6 +7,8 @@ var GameLevel ={
         var startOrRestartGameButtonText = "Start or Restart";
         GameLevel._buttonStartRestart.textContent = startOrRestartGameButtonText;
         GameLevel._buttonStartRestart1.textContent = startOrRestartGameButtonText;
+        EndOfTurn.HideAllDisplaysLayoutFromTheGame();
+        EndOfTurn.HideAllDisplaysLayoutFromTheGame();
     },
 
     HideAllRessourcesBeforeStartingGame()
@@ -15,5 +17,7 @@ var GameLevel ={
         GameLevel.HideTopPlayerAction();
         GameLevel.HideAllBoardCards();
         GameLevel.HideAllEndOfTurnButton();
+        EndOfTurn.HideAllDisplaysLayoutFromTheGame();
+        EndOfTurn.HideAllDisplaysLayoutFromTheGame();
     }
 };

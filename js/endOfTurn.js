@@ -2,6 +2,13 @@ var EndOfTurn = {
     _buttonEndOfTurnTop: document.querySelector("#end-of-turn-top-button"),
     _buttonEndOfTurnBottom: document.querySelector("#end-of-turn-bottom-button"),
 
+    _layoutPlayerPickUp: document.querySelector(".player-pick-up-layout"),
+    _layoutPlayerDiscard: document.querySelector(".player-discard-layout"),
+    _playerPickUp: document.querySelector(".player-pick-up"),
+    _layoutEndOfTurn: document.querySelector(".end-of-turn-layout"),
+    _playerDiscard: document.querySelector(".player-discard"),
+    _playerDiscardUl: document.querySelector(".player-pick-up"),
+
 ShowBothButtonEndOfTurn()
 {
         var buttonEndOfTurnText = "End of turn";
@@ -29,7 +36,6 @@ ShowBothButtonEndOfTurn()
         EndOfTurn.ShowTopPlayerEndOfTurnButton();
         EndOfTurn.HideBottomPlayerAction();
         EndOfTurn.HideBottomPlayerEndOfTurnButton();
-
     },
     GivePermissionBottomPlayerToPlay()
     {
@@ -37,7 +43,6 @@ ShowBothButtonEndOfTurn()
         EndOfTurn.ShowBottomPlayerEndOfTurnButton();
         EndOfTurn.HideTopPlayerAction();
         EndOfTurn.HideTopPlayerEndOfTurnButton();
-
     },
     GivePermissionToHideTopAndBottomAction()
     {
@@ -122,7 +127,14 @@ ShowBothButtonEndOfTurn()
     ShowBottomPlayerEndOfTurnButton()
     {
         EndOfTurn._buttonEndOfTurnBottom.style.visibility = "visible";
+    },
+    HideAllDisplaysLayoutFromTheGame()
+    {
+        EndOfTurn._layoutPlayerPickUp.style.display = "none";
+        EndOfTurn._layoutPlayerDiscard.style.display = "none";
+        EndOfTurn._playerPickUp.style.display = "none";
+        EndOfTurn._layoutEndOfTurn.style.display = "none";
+        EndOfTurn._playerDiscard.style.display = "none";
+        EndOfTurn._playerDiscardUl.style.display = "none";
     }
-
-   
 };
