@@ -7,7 +7,7 @@ var EndOfTurn = {
     _playerPickUp: document.querySelector(".player-pick-up"),
     _layoutEndOfTurn: document.querySelector(".end-of-turn-layout"),
     _playerDiscard: document.querySelector(".player-discard"),
-    _playerDiscardUl: document.querySelector(".player-pick-up-bottom"),
+    _playerPickUpBottom: document.querySelector(".player-pick-up-bottom"),
     _playerPlayerAction: document.querySelector(".player-action"),
 
 ShowBothButtonEndOfTurn()
@@ -136,7 +136,7 @@ ShowBothButtonEndOfTurn()
         EndOfTurn._playerPickUp.style.display = "none";
         EndOfTurn._layoutEndOfTurn.style.display = "none";
         EndOfTurn._playerDiscard.style.display = "none";
-        EndOfTurn._playerDiscardUl.style.display = "none";
+        EndOfTurn._playerPickUpBottom.style.display = "none";
         EndOfTurn._playerPlayerAction.style.display = "none";
     }
 };
