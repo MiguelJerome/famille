@@ -671,14 +671,17 @@ a
   }
   .control-message-event
   {
+    min-width: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
+    
   }
   .middle-keeping-all-mid-together
 {
+  min-width: 600px;
   display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -689,6 +692,7 @@ a
 
 .major-wrapper-container
 {
+  min-width: 550px;
   height: 2200px;
     display: flex;
     flex-wrap: wrap;
@@ -722,6 +726,16 @@ a
 }
 
 
+.main-container
+{
+  min-width: 900px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
