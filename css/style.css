@@ -522,7 +522,7 @@ a
   background-color:#BF953F;
   border-radius: 8px;
   animation: animateMessageEventGame 5s forwards ,
-             animateMessageEventGame2 3s 7s infinite;
+             animateMessageEventGame2 3s backwards 7s infinite;
   font-size: 1.9rem;
   text-shadow: 5px 5px 10px  black;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 30px #1a1a1a;
@@ -572,19 +572,21 @@ a
 
  
   }
+  
+  100%
+  {
+    font-size: 1.9rem;
+    transform: translateX(+45px) translateY(-25px) rotate(360deg);
+  }
   50%
   {
     transform: translateX(-45px) translateY(+25px);
-  }
-  100%
-  {
-    transform: translateX(+45px) translateY(-25px) rotate(360deg);
   }
  
   0%
   {
     transform:  scale(2); opacity: 0.5;
-    font-size:1rem;
+    font-size: 1rem;
     transform: rotate(180deg);
     color: #efd69d;
    
