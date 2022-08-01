@@ -451,6 +451,7 @@ a
 .famille-acquired-layout
 {
   display: flex;
+  text-align: center;
 }
 
 /*famille acquires css style stuff*/
@@ -460,6 +461,7 @@ a
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .famille-acquired
@@ -489,10 +491,11 @@ a
 /*message box who won  css style stuff*/
 .message-box-who-won-layout
 {
-  margin: 2rem;
+  margin: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
 }
 
