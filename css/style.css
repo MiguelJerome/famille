@@ -247,13 +247,14 @@ a
 
 .start-restart-button
 {
+  animation: animateStartButton 4s linear infinite;
   text-align: center;
   font-size: 3rem;
   text-shadow: 5px 5px 10px  black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-radius: 8px;
   font-weight: bolder;
-  margin: 30px;
+  margin: 60px;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 10px;
@@ -268,6 +269,7 @@ a
 
 .start-restart-button:hover
 {
+  animation: animateStartButton 4s linear infinite;
   background-color: rgb(219, 104, 241);
   border: 2px solid rgb(236, 0, 110);
   text-shadow: 5px 5px 10px  black;
@@ -487,6 +489,7 @@ a
 /*message box who won  css style stuff*/
 .message-box-who-won-layout
 {
+  margin: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -512,7 +515,7 @@ a
   text-decoration:none;
   background-color:#BF953F;
   border-radius: 8px;
-  animation: animate 4s linear infinite;
+  animation: animateMessageEventGame 4s linear infinite;
   font-size: 3rem;
   text-shadow: 5px 5px 10px  black;
   box-shadow: 0 0 0 5px #1b1b1b, 0 0 0 10px #1b1b1a, 0 0 0 20px #1b1a1b, 0 0 0 20px #1b1a1a,0 0 0 30px #1a1a1a;
@@ -526,7 +529,7 @@ a
   border: 1px solid transparent;
 }
 
-@keyframes animate
+@keyframes animateMessageEventGame
 {
   0%
   {
@@ -544,6 +547,27 @@ a
     transform: translateX(-45px) translateY(25px) rotate(360deg);
   }
 }
+
+@keyframes animateStartButton
+{
+  0%
+  {
+   transform:  scale(2); opacity: 0.5;
+    font-size: 0.5rem;
+    
+    color:  rgb(219, 104, 241);
+  }
+  50%
+  {
+    transform: translateX(45px) translateY(-25px);
+  }
+  100%
+  {
+    transform: translateX(-45px) translateY(25px);
+  }
+}
+
+
 
 @media (max-width: 1388px)
 {
