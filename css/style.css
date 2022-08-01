@@ -552,6 +552,15 @@ a
   {
     transform: translateX(-45px) translateY(25px) rotate(360deg);
   }
+ 
+  0%
+  {
+   transform:  scale(-2); opacity: 0.5;
+    font-size:1rem;
+    
+    color: #efd69d;
+  }
+
 }
 
 @keyframes animateStartButton
@@ -559,6 +568,12 @@ a
   0%
   {
    transform:  scale(1); opacity: 0.5;
+    font-size: 0.5rem;
+    color:  rgb(219, 104, 241);
+  }
+  0%
+  {
+   transform:  scale(-1); opacity: 0.5;
     font-size: 0.5rem;
     color:  rgb(219, 104, 241);
   }
