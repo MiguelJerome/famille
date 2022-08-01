@@ -570,26 +570,24 @@ a
     font-size:1rem;
     color: #efd69d;
 
- 
-  }
-  
-  100%
-  {
-    font-size: 1.9rem;
-    transform: translateX(+45px) translateY(-25px) rotate(360deg);
+
   }
   50%
   {
     transform: translateX(-45px) translateY(+25px);
   }
- 
+  100%
+  {
+    transform: translateX(+45px) translateY(-25px) rotate(360deg);
+  }
+
   0%
   {
     transform:  scale(2); opacity: 0.5;
-    font-size: 1rem;
+    font-size:1rem;
     transform: rotate(180deg);
     color: #efd69d;
-   
+
   }
 }
 
