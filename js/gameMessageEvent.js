@@ -5,6 +5,7 @@ var GameMessageEvent = {
     _intervalGameInPlay: null,
     _intervalGameInPlayGet7: null,
     _timerIntervalGameInPlay: 3000,
+    _timerMessageEventMidGame: 4000,
 
 ShowMessageCurrentMessageEvent()
 {
@@ -16,8 +17,7 @@ ShowMessageCurrentMessageEvent()
 
 ShowMessageTopPlayerWon()
 {
-    GameMessageEvent.ClearShowMessageForPlayerGoInterval();
-    GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
+   
     var messageBoxWhoWonInfoText = "Top Won";
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxWhoWonInfoText;
     GameMessageEvent._messageBoxBottomPlayerInfo.textContent = messageBoxWhoWonInfoText;
@@ -25,8 +25,7 @@ ShowMessageTopPlayerWon()
 
 ShowMessageBottomPlayerWon()
 {
-    GameMessageEvent.ClearShowMessageForPlayerGoInterval();
-    GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
+    
     var messageBoxWhoWonInfoText = "Bottom Won";
     GameMessageEvent._messageBoxTopPlayerInfo.textContent = messageBoxWhoWonInfoText;
     GameMessageEvent._messageBoxBottomPlayerInfo.textContent = messageBoxWhoWonInfoText;
@@ -58,9 +57,7 @@ ShowPressStart()
 },
 ShowMessageForBothPlayerGo()
 { 
-    GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Go! Go!";
-    GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Go! Go!";
-
+    GameMessageEvent.ShowMessageGo();
 },
 ClearShowMessageForPlayerGoInterval()
 {
@@ -75,6 +72,20 @@ ShowMessageGet7FamilleAndWin()
 ClearShowMessageForPlayerGoIntervalGet7()
 {
     clearInterval(GameMessageEvent._intervalGameInPlayGet7);
+},
+ShowMessageGo()
+{
+    GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Go! Go!";
+    GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Go! Go!";
+},
+ShowMessageGet7Win()
+{
+    setTimeout(function()
+    {
+        GameMessageEvent._messageBoxTopPlayerInfo.textContent = "Get 7 Win";
+        GameMessageEvent._messageBoxBottomPlayerInfo.textContent = "Get 7 Win";
+        GameMessageEvent.ShowMessageForBothPlayerGo();
+    },GameMessageEvent._timerMessageEventMidGame);
 }
 
 };

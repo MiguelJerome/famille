@@ -1,6 +1,7 @@
 var StartRestartGame ={
     RunStartRestartGame()
     {
+
         BoardCard.HideAllBoardCards();
         BottomPlayerHand.HideAllBoardCards();
         BoardCard.ShowAllBoardCards();
@@ -10,6 +11,7 @@ var StartRestartGame ={
         FamilleBoard.ClearBothPlayerFamilleBoard();
         FamilleAcquiredCaption.ClearBothThenShowUpdatedBottomFamilleAcquiredCaption();
         GameMessageEvent.ClearMessageBox();
+        GameMessageEvent.ShowMessageGo();
         EndOfTurn.GivePermissionTopPlayerToPlay();
         GameMessageEvent.ClearShowMessageForPlayerGoInterval();
         GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
@@ -24,4 +26,4 @@ var StartRestartGame ={
         EndOfTurn.HideBottomPlayerPickupCard();
         EndOfTurn.HideAllDisplaysLayoutFromTheGame();
     }
-}
+};

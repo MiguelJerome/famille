@@ -7,6 +7,7 @@ var EndOfGame = {
     {
        if( FamilleBoard._counterTopFamilleBoard >= FamilleBoard._scoreForTheWin )
        {
+            GameMessageEvent._timerMessageEventMidGame = 0;
             GameMessageEvent.ClearShowMessageForPlayerGoInterval();
             GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
             EndOfTurn.GivePermissionToHideTopAndBottomEndOfurnButton();
@@ -26,6 +27,7 @@ var EndOfGame = {
     {
         if( FamilleBoard._counterBottomFamilleBoard >= FamilleBoard._scoreForTheWin )
         {
+            GameMessageEvent._timerMessageEventMidGame = 0;
             GameMessageEvent.ClearShowMessageForPlayerGoInterval();
             GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
             EndOfTurn.GivePermissionToHideTopAndBottomEndOfurnButton();
