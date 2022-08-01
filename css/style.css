@@ -4,8 +4,8 @@
 } 
 ul
 {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
   padding-inline-start: 0px;
 }
 
@@ -498,8 +498,8 @@ a
 
 .message-box-who-won
 {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-decoration:none;
   font-style: italic;
 }
