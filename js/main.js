@@ -34,6 +34,8 @@ EndOfTurn.HideAllDisplaysLayoutFromTheGame();
 
 
 
+
+
 //GameLevel.HideAllRessourcesBeforeStartingGame();
 
 //GameLevel.GivePermissionTopPlayerToPlay();

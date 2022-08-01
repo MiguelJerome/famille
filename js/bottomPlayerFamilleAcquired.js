@@ -830,7 +830,7 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id2c:
                         if(Carte._position2c == CardPosition._bottomHandCardPosition2   )
                         {
-                            CheckThirdHandCardFamilleCombination2d2c(carteIdHand3, carteIdHand4)
+                            CheckThirdHandCardFamilleCombination2d2c(carteIdHand3, carteIdHand4);
                         }
                         break;
                 default:break;
@@ -882,7 +882,7 @@ var BottomPlayerFamilleAcquired ={
                     case Carte._id3c:
                         if(Carte._position3c == CardPosition._bottomHandCardPosition2  )
                         {
-                            CheckThirdHandCardFamilleCombination3s3c(carteIdHand3, carteIdHand4)
+                            CheckThirdHandCardFamilleCombination3s3c(carteIdHand3, carteIdHand4);
                         }
                         break;
                 default:break;
@@ -2110,7 +2110,6 @@ var BottomPlayerFamilleAcquired ={
                 Carte.ShowLogCartePoperties(Carte._idAs, Carte._graphicAs, Carte._graphicIsVisibleOrNotAs, Carte._ShuffleOrNotAs, Carte._positionAs );
                 }
                 break;
-                    break;
                 case Carte._idAc:
                     if(Carte._positionAc == CardPosition._bottomHandCardPosition3 )
                 {
