@@ -604,6 +604,17 @@ a
 {
   display: flex;
 }
+.row-famille-board
+{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 @media (max-width:1700px)
 {
@@ -732,13 +743,23 @@ a
   }
   .board-famille-layout
   {
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  } 
+  .footer-control-layout
+  {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-  } 
+  }
 }
 
 @media (min-width:1701px) and (max-width:20000px)
@@ -813,11 +834,12 @@ a
   }
   .board-famille-layout
   {
+    width: 4rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
     justify-content: center;
     align-items: center;
+    align-content: center;
   }
 }
