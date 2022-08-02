@@ -3,7 +3,6 @@ var BottomPlayerHand ={
     _buttonDiscardBottomPlayerCard2: document.querySelector("#discard-bottom-player-card2"),
     _buttonDiscardBottomPlayerCard3: document.querySelector("#discard-bottom-player-card3"),
     _buttonDiscardBottomPlayerCard4: document.querySelector("#discard-bottom-player-card4"),
-
     ShowAndUpdateAllBottomPlayerHandCard(bottomPlayerHand1, bottomPlayerHand2, bottomPlayerHand3,  bottomPlayerHand4)
     {
         var buttonDiscardBottomPlayerCard1Text = bottomPlayerHand1 ;

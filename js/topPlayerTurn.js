@@ -1,7 +1,6 @@
-var TopPlayerTurn ={
-    
+var TopPlayerTurn ={ 
     ShowThatIsTopPlayerTurn()
     {
-    GameMessageEvent.ShowMessageTopPlayerItIsYourTurn();
+        GameMessageEvent.ShowMessageTopPlayerItIsYourTurn();
     }
 };

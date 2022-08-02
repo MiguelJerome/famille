@@ -322,7 +322,6 @@ var BottomPlayerFamilleAcquired ={
 
         }
     },
-
         CheckSecondHandCardFamilleCombination(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -647,7 +646,6 @@ var BottomPlayerFamilleAcquired ={
             }
     
         },
-
         CheckSecondHandCardFamilleCombinationAs(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -676,7 +674,6 @@ var BottomPlayerFamilleAcquired ={
             }
     
         },
-
         CheckSecondHandCardFamilleCombinationAh(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -705,7 +702,6 @@ var BottomPlayerFamilleAcquired ={
             }
     
         },
-     
         CheckSecondHandCardFamilleCombinationAd(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -756,8 +752,6 @@ var BottomPlayerFamilleAcquired ={
                 default:break;
             }
         },
-
-
         CheckSecondHandCardFamilleCombination2s(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -784,7 +778,6 @@ var BottomPlayerFamilleAcquired ={
                 default:break;
             }
         },
-
         CheckSecondHandCardFamilleCombination2h(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -810,7 +803,6 @@ var BottomPlayerFamilleAcquired ={
                 default:break;
             }
         },
-
         CheckSecondHandCardFamilleCombination2d(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -836,7 +828,6 @@ var BottomPlayerFamilleAcquired ={
                 default:break;
             }
         },
-
         CheckSecondHandCardFamilleCombination2c(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)
@@ -862,7 +853,6 @@ var BottomPlayerFamilleAcquired ={
                 default:break;
             }
         },
-
         CheckSecondHandCardFamilleCombination3s(carteIdHand2, carteIdHand3, carteIdHand4)
         {
             switch(carteIdHand2)

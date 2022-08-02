@@ -1,7 +1,6 @@
 var EndOfGame = {
     StartEndOfGame()
     {
-
     }, 
     CheckIfTopPlayerWon()
     {
@@ -19,8 +18,7 @@ var EndOfGame = {
             GameMessageEvent._intervalGameInPlayGet7 =null;
             GameMessageEvent.ClearShowMessageForPlayerGoInterval();
             FamilleBoard.ClearAutoCounterTopPlayerFamille();
-            FamilleBoard.ClearAutoCounterBottomPlayerFamille();   
-            
+            FamilleBoard.ClearAutoCounterBottomPlayerFamille();      
        }
     },
     CheckIfBottomPlayerWon()
@@ -39,8 +37,7 @@ var EndOfGame = {
              GameMessageEvent.ClearShowMessageForPlayerGoIntervalGet7();
              GameMessageEvent.ClearShowMessageForPlayerGoInterval(); 
              FamilleBoard.ClearAutoCounterTopPlayerFamille();
-             FamilleBoard.ClearAutoCounterBottomPlayerFamille();
-            
+             FamilleBoard.ClearAutoCounterBottomPlayerFamille(); 
         }
     }
 };

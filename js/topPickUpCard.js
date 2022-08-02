@@ -3,7 +3,6 @@ var TopPickUpCard ={
     _buttonPickUpTopPlayerCard2: document.querySelector("#pick-up-top-player-card2"),
     _buttonPickUpTopPlayerCard3: document.querySelector("#pick-up-top-player-card3"),
     _buttonPickUpTopPlayerCard4: document.querySelector("#pick-up-top-player-card4"),
-
     ShowAndUpdateAllTopPickupCard(boardCard1, boardCard2, boardCard3,  boardCard4)
     {
         var buttonPickUpTopPlayerCard1Text = "Pick-up " + boardCard1;

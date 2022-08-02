@@ -3,7 +3,6 @@ var TopPlayerHand ={
     _buttonDiscardTopPlayerCard2: document.querySelector("#discard-top-player-card2"),
     _buttonDiscardTopPlayerCard3: document.querySelector("#discard-top-player-card3"),
     _buttonDiscardTopPlayerCard4: document.querySelector("#discard-top-player-card4"),
-
     ShowAndUpdateAllTopPlayerHandCard(topPlayerHand1, topPlayerHand2, topPlayerHand3,  topPlayerHand4)
     {
         var buttonDiscardTopPlayerCard1Text = "Discard " + topPlayerHand1 ;

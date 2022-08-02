@@ -54,9 +54,6 @@ var FamilleBoard ={
     _timerBottom: 0,
     _autoCounterTopPlayerFamille: 0,
     _botAITimer: 1000,
-    
-    
-
     ClearAutoCounterTopPlayerFamille()
     {
         FamilleBoard._autoCounterTopPlayerFamille = null;
@@ -105,9 +102,9 @@ var FamilleBoard ={
         FamilleBoard._bottomPlayerFamilleRankJ.textContent = "J";
         FamilleBoard._bottomPlayerFamilleRankQ.textContent = "Q";
         FamilleBoard._bottomPlayerFamilleRankK.textContent = "K"; 
-},
-AutoAddANewFamilleToTopPlayerFamilleBoard()
-{
+    },
+    AutoAddANewFamilleToTopPlayerFamilleBoard()
+    {
             var cardCombinationFamille =13;
 
             FamilleBoard._timerTop =   setInterval(function()
@@ -115,11 +112,10 @@ AutoAddANewFamilleToTopPlayerFamilleBoard()
                 // random Combination between 1 and 13
                FamilleBoard.AddANewFamilleToTopPlayerFamilleBoard(Math.floor(Math.random()*cardCombinationFamille)+1);
                EndOfGame.CheckIfTopPlayerWon();
-            },FamilleBoard._botAITimer);
-           
-},
-AutoAddANewFamilleToBottomPlayerFamilleBoard()
-{
+            },FamilleBoard._botAITimer);    
+    },
+    AutoAddANewFamilleToBottomPlayerFamilleBoard()
+    {
             var cardCombinationFamille =13;
 
             FamilleBoard._timerBottom=   setInterval(function()
@@ -127,12 +123,10 @@ AutoAddANewFamilleToBottomPlayerFamilleBoard()
                 // random Combination between 1 and 13
                FamilleBoard.AddANewFamilleToBottomPlayerFamilleBoard(Math.floor(Math.random()*cardCombinationFamille)+1);
                EndOfGame.CheckIfBottomPlayerWon();
-            },FamilleBoard._botAITimer);
-           
-},
-
-AddANewFamilleToTopPlayerFamilleBoard(combination)
-{
+            },FamilleBoard._botAITimer);   
+    },
+    AddANewFamilleToTopPlayerFamilleBoard(combination)
+    {
     var cardHandPosition1 =[Carte._graphicAs];
     cardHandPosition1.push(Carte._graphic2s);
 
@@ -269,8 +263,8 @@ AddANewFamilleToTopPlayerFamilleBoard(combination)
         default:break;
     }
 
-},
-AddANewFamilleToBottomPlayerFamilleBoard(combination)
+    },
+    AddANewFamilleToBottomPlayerFamilleBoard(combination)
 {
     switch(combination)
     {
@@ -393,45 +387,42 @@ AddANewFamilleToBottomPlayerFamilleBoard(combination)
             break;   
         default:break;
     }
-},
-ClearTopPlayerFamilleBoard()
-{
-    FamilleBoard._topPlayerFamilleRankA.textContent = "";
-    FamilleBoard._topPlayerFamilleRank2.textContent = "";
-    FamilleBoard._topPlayerFamilleRank3.textContent = "";
-    FamilleBoard._topPlayerFamilleRank4.textContent = "";
-    FamilleBoard._topPlayerFamilleRank5.textContent = "";
-    FamilleBoard._topPlayerFamilleRank6.textContent = "";
-    FamilleBoard._topPlayerFamilleRank7.textContent = "";
-    FamilleBoard._topPlayerFamilleRank8.textContent = "";
-    FamilleBoard._topPlayerFamilleRank9.textContent = "";
-    FamilleBoard._topPlayerFamilleRankT.textContent = "";
-    FamilleBoard._topPlayerFamilleRankJ.textContent = "";
-    FamilleBoard._topPlayerFamilleRankQ.textContent = "";
-    FamilleBoard._topPlayerFamilleRankK.textContent = "";
-
-},
-ClearBottomPlayerFamilleBoard()
-{
-    FamilleBoard._bottomPlayerFamilleRankA.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank2.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank3.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank4.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank5.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank6.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank7.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank8.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRank9.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRankT.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRankJ.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRankQ.textContent = "";
-    FamilleBoard._bottomPlayerFamilleRankK.textContent = "";
-
-},
-ClearBothPlayerFamilleBoard()
-{
-    FamilleBoard.ClearTopPlayerFamilleBoard();
-    FamilleBoard.ClearBottomPlayerFamilleBoard();
-}
-
+    },
+    ClearTopPlayerFamilleBoard()
+    {
+        FamilleBoard._topPlayerFamilleRankA.textContent = "";
+        FamilleBoard._topPlayerFamilleRank2.textContent = "";
+        FamilleBoard._topPlayerFamilleRank3.textContent = "";
+        FamilleBoard._topPlayerFamilleRank4.textContent = "";
+        FamilleBoard._topPlayerFamilleRank5.textContent = "";
+        FamilleBoard._topPlayerFamilleRank6.textContent = "";
+        FamilleBoard._topPlayerFamilleRank7.textContent = "";
+        FamilleBoard._topPlayerFamilleRank8.textContent = "";
+        FamilleBoard._topPlayerFamilleRank9.textContent = "";
+        FamilleBoard._topPlayerFamilleRankT.textContent = "";
+        FamilleBoard._topPlayerFamilleRankJ.textContent = "";
+        FamilleBoard._topPlayerFamilleRankQ.textContent = "";
+        FamilleBoard._topPlayerFamilleRankK.textContent = "";
+    },
+    ClearBottomPlayerFamilleBoard()
+    {
+        FamilleBoard._bottomPlayerFamilleRankA.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank2.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank3.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank4.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank5.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank6.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank7.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank8.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRank9.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRankT.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRankJ.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRankQ.textContent = "";
+        FamilleBoard._bottomPlayerFamilleRankK.textContent = "";
+    },
+    ClearBothPlayerFamilleBoard()
+    {
+        FamilleBoard.ClearTopPlayerFamilleBoard();
+        FamilleBoard.ClearBottomPlayerFamilleBoard();
+    }
 };

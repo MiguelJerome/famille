@@ -1,7 +1,6 @@
 var EndOfTurn = {
     _buttonEndOfTurnTop: document.querySelector("#end-of-turn-top-button"),
     _buttonEndOfTurnBottom: document.querySelector("#end-of-turn-bottom-button"),
-
     _layoutPlayerPickUp: document.querySelector(".player-pick-up-layout"),
     _layoutPlayerDiscard: document.querySelector(".player-discard-layout"),
     _playerPickUp: document.querySelector(".player-pick-up"),
@@ -9,9 +8,8 @@ var EndOfTurn = {
     _playerDiscard: document.querySelector(".player-discard"),
     _playerPickUpBottom: document.querySelector(".player-pick-up-bottom"),
     _playerPlayerAction: document.querySelector(".player-action"),
-
-ShowBothButtonEndOfTurn()
-{
+    ShowBothButtonEndOfTurn()
+    {
         var buttonEndOfTurnText = "End of turn";
 
         EndOfTurn._buttonEndOfTurnTop.textContent = buttonEndOfTurnText;
@@ -65,33 +63,32 @@ ShowBothButtonEndOfTurn()
     },
     HideTopPlayerAction()
     {
-    TopPlayerHand._buttonDiscardTopPlayerCard1.style.visibility = "hidden";
-    TopPlayerHand._buttonDiscardTopPlayerCard2.style.visibility = "hidden";
-    TopPlayerHand._buttonDiscardTopPlayerCard3.style.visibility = "hidden";
-    TopPlayerHand._buttonDiscardTopPlayerCard4.style.visibility = "hidden";
-    TopPickUpCard._buttonPickUpTopPlayerCard1.style.visibility = "hidden";
-    TopPickUpCard._buttonPickUpTopPlayerCard2.style.visibility = "hidden";
-    TopPickUpCard._buttonPickUpTopPlayerCard3.style.visibility = "hidden";
-    TopPickUpCard._buttonPickUpTopPlayerCard4.style.visibility = "hidden";
+        TopPlayerHand._buttonDiscardTopPlayerCard1.style.visibility = "hidden";
+        TopPlayerHand._buttonDiscardTopPlayerCard2.style.visibility = "hidden";
+        TopPlayerHand._buttonDiscardTopPlayerCard3.style.visibility = "hidden";
+        TopPlayerHand._buttonDiscardTopPlayerCard4.style.visibility = "hidden";
+        TopPickUpCard._buttonPickUpTopPlayerCard1.style.visibility = "hidden";
+        TopPickUpCard._buttonPickUpTopPlayerCard2.style.visibility = "hidden";
+        TopPickUpCard._buttonPickUpTopPlayerCard3.style.visibility = "hidden";
+        TopPickUpCard._buttonPickUpTopPlayerCard4.style.visibility = "hidden";
     },
     HideBottomPlayerAction()
     {
-    BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "hidden";
-    BottomPlayerHand._buttonDiscardBottomPlayerCard2.style.visibility = "hidden";
-    BottomPlayerHand._buttonDiscardBottomPlayerCard3.style.visibility = "hidden";
-    BottomPlayerHand._buttonDiscardBottomPlayerCard4.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard1.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard2.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard3.style.visibility = "hidden";
+        BottomPlayerHand._buttonDiscardBottomPlayerCard4.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard1.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
     },
-
     HideBottomPlayerPickupCard()
     {
         BottomPickUpCard._buttonPickUpBottomPlayerCard1.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
-    BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard2.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard3.style.visibility = "hidden";
+        BottomPickUpCard._buttonPickUpBottomPlayerCard4.style.visibility = "hidden";
     },
     ShowTopPlayerAction()
     {
@@ -104,7 +101,6 @@ ShowBothButtonEndOfTurn()
     TopPickUpCard._buttonPickUpTopPlayerCard3.style.visibility = "visible";
     TopPickUpCard._buttonPickUpTopPlayerCard4.style.visibility = "visible";
     },
-
     ShowBottomPlayerAction()
     {
     BottomPlayerHand._buttonDiscardBottomPlayerCard1.style.visibility = "visible";

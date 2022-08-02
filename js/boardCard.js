@@ -3,7 +3,6 @@ var BoardCard = {
     _boardCard2: document.querySelector("#board-card2"),
     _boardCard3: document.querySelector("#board-card3"),
     _boardCard4: document.querySelector("#board-card4"),
-
     ShowAllBoardCardPreviewTesting()
     {
         /* Board Card*/
@@ -38,12 +37,10 @@ var BoardCard = {
     },
     ShowFirstBoardCard(cardGraphic)
     {
-        //BoardCard._boardCard1.style.visibility = "visible";
         BoardCard._boardCard1.textContent = cardGraphic;
     },
     ShowSecondBoardCard(cardGraphic)
     {
-        //BoardCard._boardCard2.style.visibility = "visible";
         BoardCard._boardCard2.textContent = cardGraphic;
     },
     ShowThirdBoardCard(cardGraphic)

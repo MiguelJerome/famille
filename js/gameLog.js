@@ -1,25 +1,20 @@
 var GameLog ={
-
     ShowAllCardsProperties()
     {
         for(var i= 1; i < 53; i++)
         {
-            Carte.ShowGameStartAllCardsProperties(i);
-            
+            Carte.ShowGameStartAllCardsProperties(i);   
         }
-
     },
     ShowAllCardInStartingDeck()
     {
         for(var i= 1; i < 53; i++)
         {
-            GameLog.ShowOneCardInStartingDeck(i);
-            
+            GameLog.ShowOneCardInStartingDeck(i);    
         }
     },
     ShowAllCardOnTHeBoard()
     {
-
     },
     ShowOneCardInStartingDeck(carteId)
     {
@@ -338,8 +333,6 @@ var GameLog ={
                     Carte.ShowLogCartePoperties(Carte._idKc, Carte._graphicKc, Carte._graphicIsVisibleOrNotKc, Carte._ShuffleOrNotKc, Carte._positionKc );
                     }
                     break;
-
-
             default:break;
         }
     }

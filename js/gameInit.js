@@ -1,5 +1,4 @@
 var GameInt ={
-    
     RunGameInit()
     {
         

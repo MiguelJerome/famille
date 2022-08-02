@@ -1,7 +1,6 @@
 var StartRestartGame ={
     RunStartRestartGame()
     {
-
         BoardCard.HideAllBoardCards();
         BottomPlayerHand.HideAllBoardCards();
         BoardCard.ShowAllBoardCards();

@@ -289,8 +289,7 @@ var Carte = {
     _indexFamilleT: 9,
     _indexFamilleJ: 10,
     _indexFamilleQ: 11,
-    _indexFamilleK: 12,
-    
+    _indexFamilleK: 12, 
     AddAllSpadesSuitToTheArray()
     {
         Carte._cardAllSpadesSuit.push(Carte._graphicAs);
@@ -516,10 +515,7 @@ var Carte = {
                 case Carte._idKc:
                     Carte.ShowLogCartePoperties(Carte._idKc, Carte._graphicKc, Carte._graphicIsVisibleOrNotKc, Carte._ShuffleOrNotKc, Carte._positionKc );
                 break;
-
-
             default:break;
-
         }
     },          
     ShowLogCartePoperties(carteId, carteGraphic, carteVisibilityState, carteShuffleState, cartePosition)
