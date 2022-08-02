@@ -10,163 +10,153 @@
  
     <body class = "output-body" id ="output-body"> 
 
-<!--major wrapper container -->
-
-<div class = "major-wrapper-container">
-        <div class ="start-restart-layout">     
-            <ul class ="start-restart">
-                <li class="start-restart-button" id="start-restart-button1"></li> 
-            </ul>
-        </div>
-                <!-- Top Player action -->   
-                <div class ="player-discard-layout" id ="player-discard-layout"> 
-                    <ul class ="player-discard">
-                        <li class="player-action" id="discard-top-player-card1"></li>
-                        <li class="player-action" id="discard-top-player-card2"></li>
-                        <li class="player-action" id="discard-top-player-card3"></li>
-                        <li class="player-action" id="discard-top-player-card4"></li>
-                    </ul>
-                </div>
-                <div class ="player-pick-up-layout">
-                    <ul class ="player-pick-up">
-                        <li class="player-action" id="pick-up-top-player-card1"></li>
-                        <li class="player-action" id="pick-up-top-player-card2"></li>
-                        <li class="player-action" id="pick-up-top-player-card3"></li>
-                        <li class="player-action" id="pick-up-top-player-card4"></li>
-                     </ul>
-                </div>
-       <div class="game-background-layout" id="game-background-layout">
-        
-        <div class="main-container">     
-<!-- controling animation mid wrapper-->
-<div class = "control-message-event">
-
-
-        <div class ="famille-acquired-top-wrapper" id ="famille-acquired-top-wrapper">
-            <div class ="famille-acquired-layout2">
-                <ul class ="famille-acquired-layout">
-                    <li class="famille-acquired-caption" id="famille-acquired-caption-top"></li> 
+        <!--major wrapper container -->
+        <div class = "major-wrapper-container">
+            <!-- Restart button --> 
+            <div class ="start-restart-layout">     
+                <ul class ="start-restart">
+                    <li class="start-restart-button" id="start-restart-button1"></li> 
                 </ul>
             </div>
-            <ul class ="famille-acquired-layout">
-                <li class="board-card" id="top-player-famille-rank-A"></li>
-                <li class="board-card" id="top-player-famille-rank-2"></li>
-                <li class="board-card" id="top-player-famille-rank-3"></li>
-                <li class="board-card" id="top-player-famille-rank-4"></li>
-            </ul>
-            <ul class ="famille-acquired-layout">
-                <li class="board-card" id="top-player-famille-rank-5"></li>
-                <li class="board-card" id="top-player-famille-rank-6"></li>
-                <li class="board-card" id="top-player-famille-rank-7"></li>
-                <li class="board-card" id="top-player-famille-rank-8"></li>
-            </ul>
-            <ul class ="famille-acquired-layout">
-                <li class="board-card" id="top-player-famille-rank-9"></li>
-                <li class="board-card" id="top-player-famille-rank-T"></li>
-                <li class="board-card" id="top-player-famille-rank-J"></li>
-                <li class="board-card" id="top-player-famille-rank-Q"></li>
-                <li class="board-card" id="top-player-famille-rank-K"></li>
-            </ul>
-
-
-<div class="mesage-box-wrapper"> 
-            <div class ="message-box-who-won-layout">
-                <ul class ="message-box-who-won">
-                    <li class="message-box-who-won-info" id="message-box-who-won-info"></li> 
-                </ul>
-            </div>
-        </div>
-</div>
-
-            <figure class="game-level" id="game-level">
-                <div class ="end-of-turn-layout">
-                    <ul class ="end-of-turn">
-                        <li class="end-of-turn-button" id="end-of-turn-top-button"></li> 
-                    </ul>
-                </div>
-                <ul class ="board-card-layout" id ="board-card-layout">
-                    <li class="top-player-card" id="board-card1"></li>
-                    <li class="top-player-card" id="board-card2"></li>
-                    <li class="top-player-card" id="board-card3"></li>
-                    <li class="top-player-card" id="board-card4"></li>
-                </ul>
+            <!-- Discard button for futur version -->
+            <div class ="player-discard-layout" id ="player-discard-layout"> 
                 <ul class ="player-discard">
-                    <li class="bottom-player-card" id="discard-bottom-player-card1"></li>
-                    <li class="bottom-player-card" id="discard-bottom-player-card2"></li>
-                    <li class="bottom-player-card" id="discard-bottom-player-card3"></li>
-                    <li class="bottom-player-card" id="discard-bottom-player-card4"></li>
+                    <li class="player-action" id="discard-top-player-card1"></li>
+                    <li class="player-action" id="discard-top-player-card2"></li>
+                    <li class="player-action" id="discard-top-player-card3"></li>
+                    <li class="player-action" id="discard-top-player-card4"></li>
                 </ul>
-                <div class ="end-of-turn-layout">
-                    <ul class ="end-of-turn">
-                        <li class="end-of-turn-button" id="end-of-turn-bottom-button"></li> 
-                    </ul>
-                </div>
-            </figure>
-  
-            <div class ="famille-acquired-bottom-wrapper" id ="famille-acquired-bottom-wrapper">
-                <div class ="message-box-who-won-layout">
-                    <ul class ="message-box-who-won">
-                        <li class="message-box-who-won-info" id="message-box-who-won-info2"></li> 
-                    </ul>
-                </div>
-       
-                <ul class ="famille-acquired-layout">
-                    <li class="board-card" id="bottom-player-famille-rank-9"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-T"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-J"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-Q"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-K"></li>
+            </div>
+            <!-- Pick up button for futur version --> 
+            <div class ="player-pick-up-layout">
+                <ul class ="player-pick-up">
+                    <li class="player-action" id="pick-up-top-player-card1"></li>
+                    <li class="player-action" id="pick-up-top-player-card2"></li>
+                    <li class="player-action" id="pick-up-top-player-card3"></li>
+                    <li class="player-action" id="pick-up-top-player-card4"></li>
                 </ul>
-                <ul class ="famille-acquired-layout">
-                    <li class="board-card" id="bottom-player-famille-rank-5"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-6"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-7"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-8"></li>
+            </div>
+            <!-- Background layout -->
+            <div class="game-background-layout" id="game-background-layout">
+                <div class="main-container">     
+                    <!-- controling animation mid wrapper-->
+                    <div class = "control-message-event">
+                        <div class ="famille-acquired-top-wrapper" id ="famille-acquired-top-wrapper">
+                            <div class ="famille-acquired-layout2">
+                                <ul class ="famille-acquired-layout">
+                                    <li class="famille-acquired-caption" id="famille-acquired-caption-top"></li> 
+                                </ul>
+                            </div>
+                            <div class = "board-famille-layout">
+                                <ul class ="famille-acquired-layout">
+                                    <li class="board-card" id="top-player-famille-rank-A"></li>
+                                    <li class="board-card" id="top-player-famille-rank-2"></li>
+                                    <li class="board-card" id="top-player-famille-rank-3"></li>
+                                    <li class="board-card" id="top-player-famille-rank-4"></li>
+                                </ul>
+                                <ul class ="famille-acquired-layout">
+                                    <li class="board-card" id="top-player-famille-rank-5"></li>
+                                    <li class="board-card" id="top-player-famille-rank-6"></li>
+                                    <li class="board-card" id="top-player-famille-rank-7"></li>
+                                    <li class="board-card" id="top-player-famille-rank-8"></li>
+                                </ul>
+                                <ul class ="famille-acquired-layout">
+                                    <li class="board-card" id="top-player-famille-rank-9"></li>
+                                    <li class="board-card" id="top-player-famille-rank-T"></li>
+                                    <li class="board-card" id="top-player-famille-rank-J"></li>
+                                    <li class="board-card" id="top-player-famille-rank-Q"></li>
+                                    <li class="board-card" id="top-player-famille-rank-K"></li>
+                                </ul>
+                            </div>
+                            <!-- Mesage Game Event layout -->
+                            <div class="mesage-box-wrapper"> 
+                                <div class ="message-box-who-won-layout">
+                                    <ul class ="message-box-who-won">
+                                        <li class="message-box-who-won-info" id="message-box-who-won-info"></li> 
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="game-level" id="game-level">
+                            <div class ="end-of-turn-layout">
+                                <ul class ="end-of-turn">
+                                    <li class="end-of-turn-button" id="end-of-turn-top-button"></li> 
+                                </ul>
+                            </div>
+                                <ul class ="board-card-layout" id ="board-card-layout">
+                                    <li class="top-player-card" id="board-card1"></li>
+                                    <li class="top-player-card" id="board-card2"></li>
+                                    <li class="top-player-card" id="board-card3"></li>
+                                    <li class="top-player-card" id="board-card4"></li>
+                                </ul>
+                                <ul class ="player-discard">
+                                    <li class="bottom-player-card" id="discard-bottom-player-card1"></li>
+                                    <li class="bottom-player-card" id="discard-bottom-player-card2"></li>
+                                    <li class="bottom-player-card" id="discard-bottom-player-card3"></li>
+                                    <li class="bottom-player-card" id="discard-bottom-player-card4"></li>
+                                </ul>
+                            <div class ="end-of-turn-layout">
+                                <ul class ="end-of-turn">
+                                    <li class="end-of-turn-button" id="end-of-turn-bottom-button"></li> 
+                                </ul>
+                            </div>
+                        </figure>
+                        <div class ="famille-acquired-bottom-wrapper" id ="famille-acquired-bottom-wrapper">
+                            <!-- Mesage Game Event layout -->
+                            <div class ="message-box-who-won-layout">
+                                <ul class ="message-box-who-won">
+                                    <li class="message-box-who-won-info" id="message-box-who-won-info2"></li> 
+                                </ul>
+                            </div>
+                            <div class = "board-famille-layout">
+                                <ul class ="famille-acquired-layout">
+                                    <li class="board-card" id="bottom-player-famille-rank-9"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-T"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-J"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-Q"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-K"></li>
+                                </ul>
+                                <ul class ="famille-acquired-layout">
+                                    <li class="board-card" id="bottom-player-famille-rank-5"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-6"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-7"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-8"></li>
+                                </ul>
+                                <ul class ="famille-acquired-layout">
+                                    <li class="board-card" id="bottom-player-famille-rank-A"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-2"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-3"></li>
+                                    <li class="board-card" id="bottom-player-famille-rank-4"></li>
+                                </ul>
+                            </div>
+                            <div class ="famille-acquired-layout2">
+                                <ul class ="famille-acquired-layout">
+                                    <li class="famille-acquired-caption" id="famille-acquired-caption-bottom"></li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div> 
+            <!-- Pick up button for futur version -->
+            <div class ="player-pick-up-layout">
+                <ul class ="player-pick-up-bottom">
+                    <li class="player-action" id="pick-up-bottom-player-card1"></li>
+                    <li class="player-action" id="pick-up-bottom-player-card2"></li>
+                    <li class="player-action" id="pick-up-bottom-player-card3"></li>
+                    <li class="player-action" id="pick-up-bottom-player-card4"></li>
                 </ul>
-                <ul class ="famille-acquired-layout">
-                    <li class="board-card" id="bottom-player-famille-rank-A"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-2"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-3"></li>
-                    <li class="board-card" id="bottom-player-famille-rank-4"></li>
+            </div>
+            <!-- Restart button --> 
+            <div class ="start-restart-layout">
+                <ul class ="start-restart" >
+                    <li class="start-restart-button" id="start-restart-button"></li> 
                 </ul>
-                
-                
-                <div class ="famille-acquired-layout2">
-                    <ul class ="famille-acquired-layout">
-                        <li class="famille-acquired-caption" id="famille-acquired-caption-bottom"></li> 
-                    </ul>
-                </div>
-             </div>
+            </div>
+        </div>  
+         <div class="button-game-rules" id="button-game-rules">
+            <a href="./index.html">Click Here to go back to Game Rules </a>
         </div>
-    </div>   
-    
-    
-
-
-</div> 
-
-
-         <!-- Bottom Player action -->   
-            
-         <div class ="player-pick-up-layout">
-            <ul class ="player-pick-up-bottom">
-                <li class="player-action" id="pick-up-bottom-player-card1"></li>
-                <li class="player-action" id="pick-up-bottom-player-card2"></li>
-                <li class="player-action" id="pick-up-bottom-player-card3"></li>
-                <li class="player-action" id="pick-up-bottom-player-card4"></li>
-             </ul>
-        </div>
-
-        <div class ="start-restart-layout">
-            <ul class ="start-restart" >
-                <li class="start-restart-button" id="start-restart-button"></li> 
-            </ul>
-        </div>
-
-</div>  
-     
-
-        <div class="button-game-rules" id="button-game-rules"><a href="./index.html"> Click Here to go back to Game Rules </a></div>
         <footer class ="about-me">
             <span>&copy; Miguel Jerome</span>
             <span>&copy; Synn Sloan Igondjo </span>
@@ -175,92 +165,82 @@
             <span><a href="https://github.com/MiguelJerome/famille"> Page Ressources </a></span>
         </footer>
 
-<!--The script dealer-->
-<script src="./js/dealer.js"></script>  
+            <!--The script dealer-->
+            <script src="./js/dealer.js"></script>  
 
- <!--The script bottom Famille Acquired-->
-<script src="./js/bottomPlayerFamilleAcquired.js"></script>      
+            <!--The script bottom Famille Acquired-->
+            <script src="./js/bottomPlayerFamilleAcquired.js"></script>      
 
-<!--The script top player Famille Acquired-->
-<script src="./js/topPlayerFamilleAcquired.js"></script>     
+            <!--The script top player Famille Acquired-->
+            <script src="./js/topPlayerFamilleAcquired.js"></script>     
 
-<!--The script end of game-->
-<script src="./js/endOfGame.js"></script>
+            <!--The script end of game-->
+            <script src="./js/endOfGame.js"></script>
 
-<!--The script game log-->
-<script src="./js/gameLog.js"></script>
+            <!--The script game log-->
+            <script src="./js/gameLog.js"></script>
 
+            <!--The script bottom player pick up card-->
+            <script src="./js/bottomPickUpCard.js"></script>
 
-<!--The script bottom player pick up card-->
-<script src="./js/bottomPickUpCard.js"></script>
+            <!--The script top player pick up card-->
+            <script src="./js/topPickUpCard.js"></script>
 
+            <!--The script bottom player turn turn-->
+            <script src="./js/bottomPlayerHand.js"></script>
 
-<!--The script top player pick up card-->
-<script src="./js/topPickUpCard.js"></script>
+            <!--The script top player turn-->
+            <script src="./js/topPlayerTurn.js"></script>
 
+            <!--The script graveyard deck-->
+            <script src="./js/graveyardDeck.js"></script>
 
-<!--The script bottom player turn turn-->
-<script src="./js/bottomPlayerHand.js"></script>
+            <!--The script shuffle deck-->
+            <script src="./js/shuffleDeck.js"></script>
 
+            <!--The script bottom player hand-->
+            <script src="./js/bottomPlayerHand.js"></script>
 
-<!--The script top player turn-->
-<script src="./js/topPlayerTurn.js"></script>
+            <!--The script top player hand-->
+            <script src="./js/topPlayerHand.js"></script>
 
-<!--The script graveyard deck-->
-<script src="./js/graveyardDeck.js"></script>
+            <!--The script postion card-->
+            <script src="./js/positionCard.js"></script>
 
-<!--The script shuffle deck-->
-<script src="./js/shuffleDeck.js"></script>
+            <!--The script carte -->
+            <script src="./js/carte.js"></script>
 
+            <!--The script deck card-->
+            <script src="./js/deckCard.js"></script>
 
-<!--The script bottom player hand-->
-<script src="./js/bottomPlayerHand.js"></script>
+            <!--The script player hand-->
+            <script src="./js/playerHand.js"></script>
 
+            <!--The script start Restart Game-->
+            <script src="./js/startRestartGame.js"></script>
 
-<!--The script top player hand-->
-<script src="./js/topPlayerHand.js"></script>
+            <!--The script familleAcquiredCaption-->
+            <script src="./js/familleAcquiredCaption.js"></script>
 
-<!--The script postion card-->
-<script src="./js/positionCard.js"></script>
+            <!--The script game Init-->
+            <script src="./js/gameInit.js"></script>
 
-<!--The script carte -->
-<script src="./js/carte.js"></script>
+            <!--The script End of Turn-->
+            <script src="./js/endOfTurn.js"></script>
 
-<!--The script deck card-->
-<script src="./js/deckCard.js"></script>
+            <!--The script BoardCard-->
+            <script src="./js/boardCard.js"></script>
 
-<!--The script player hand-->
-<script src="./js/playerHand.js"></script>
+            <!--The script GameMessageEvent-->
+            <script src="./js/gameMessageEvent.js"></script> 
 
-
-<!--The script familleAcquiredCaption-->
-<script src="./js/startRestartGame.js"></script>
-
-
-<!--The script familleAcquiredCaption-->
-<script src="./js/familleAcquiredCaption.js"></script>
-
-<!--The script game Init-->
-<script src="./js/gameInit.js"></script>
-
-
-<!--The script End of Turn-->
-<script src="./js/endOfTurn.js"></script>
-
-<!--The script BoardCard-->
-<script src="./js/boardCard.js"></script>
-
-<!--The script GameMessageEvent-->
-<script src="./js/gameMessageEvent.js"></script> 
-
-<!--The script FamilleBoard-->
- <script src="./js/familleBoard.js"></script>     
+            <!--The script FamilleBoard-->
+            <script src="./js/familleBoard.js"></script>     
        
-<!--The script Game Level-->
- <script src="./js/gameLevel.js"></script>
+            <!--The script Game Level-->
+            <script src="./js/gameLevel.js"></script>
 
-<!--The script main-->
-        <script src="./js/main.js"></script>
-
+            <!--The script main-->
+            <script src="./js/main.js"></script>    
     </body> 
 </html> 

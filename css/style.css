@@ -25,9 +25,6 @@ body {
   max-width: none;
 }
 
-
-
-
 /* header rules*/
 header
 {
@@ -192,8 +189,6 @@ a
     align-items: baseline;
 }
 
-
-
 .player-discard
 {
   text-decoration:none;
@@ -215,13 +210,11 @@ a
   display: flex; 
 }
 
-
 .start-restart
 {
   text-decoration:none;
   font-style: italic;
 }
-
 
 .player-action
 {
@@ -246,7 +239,6 @@ a
   border: 2px solid rgb(236, 0, 110);
   transition: all;
 }
-
 
 .start-restart-button
 {
@@ -376,7 +368,6 @@ a
   border-radius: 8px;
   font-weight: bolder;
 }
-
 
 .bottom-player-card
 {
@@ -555,10 +546,9 @@ a
   {
     transform: translateX(-45px) translateY(25px) rotate(360deg);
   }
- 
   0%
   {
-   transform:  scale(-2); opacity: 0.5;
+    transform:  scale(-2); opacity: 0.5;
     font-size:1rem;
     color: #efd69d;
   }
@@ -571,8 +561,6 @@ a
     transform:  scale(-2); opacity: 0.5;
     font-size:1rem;
     color: #efd69d;
-
-
   }
   50%
   {
@@ -587,41 +575,33 @@ a
   {
     transform: translateX(-45px) translateY(+25px);
   }
-
   0%
   {
     transform:  scale(2); opacity: 0.5;
     font-size:1rem;
     transform: rotate(180deg);
     color: #efd69d;
-
   }
 }
-
-
 
 @keyframes animateStartButton
 {
   0%
   {
-   transform:  scale(-1); opacity: 0.5;
+    transform:  scale(-1); opacity: 0.5;
     font-size: 0.5rem;
     color:  rgb(219, 104, 241);
   }
-
   100%
   {
    transform:  scale(1); opacity: 0.5;
- 
   }
-  
   0%
   {
-   transform:  scale(-1); opacity: 0.5;
+    transform:  scale(-1); opacity: 0.5;
     font-size: 0.5rem;
     color:  rgb(219, 104, 241);
   }
-  
 }
 
 .control-message-event
@@ -631,7 +611,6 @@ a
 
 @media (max-width:1700px)
 {
-
   .game-background-layout
   {
     display: flex;
@@ -681,28 +660,26 @@ a
     
   }
   .middle-keeping-all-mid-together
-{
+  {
  
-  display: flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.major-wrapper-container
-{
-  
-  height: 2200px;
+  .major-wrapper-container
+  {
+    height: 2200px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
-}
+  }
 
 .famille-acquired-top-wrapper
 {
@@ -766,7 +743,15 @@ a
   font-size: 20px;
   text-align: center;
 }
-
+.board-famille-layout
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  } 
 }
 
 @media (min-width:1701px) and (max-width:20000px)
@@ -845,4 +830,13 @@ a
   align-items: center;
 }
 
+.board-famille-layout
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
 }
