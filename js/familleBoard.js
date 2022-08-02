@@ -310,7 +310,7 @@ var FamilleBoard ={
                 BottomPlayerHand.ShowAndUpdateAllBottomPlayerHandCard(Carte._cardAllSpadesSuit[Carte._indexFamille5], Carte._cardAllHeartsSuit[Carte._indexFamille5], Carte._cardAllDiamondsSuit[Carte._indexFamille5], Carte._cardAllClubsSuit[Carte._indexFamille5]);
                 FamilleBoard._bottomPlayerFamilleRank5.textContent = "5";
                 FamilleAcquiredCaption.ShowUpdatedBottomFamilleAcquiredCaption();
-                Dealer.RemoveAllCards6FromTheGame();
+                Dealer.RemoveAllCards5FromTheGame();
             }
             break;
         case FamilleBoard._combinationRank6:
